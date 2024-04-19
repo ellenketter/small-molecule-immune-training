@@ -1,0 +1,17 @@
+Nerol2
+300639392 reads; of these:
+  300639392 (100.00%) were paired; of these:
+    112483603 (37.41%) aligned concordantly 0 times
+    119025607 (39.59%) aligned concordantly exactly 1 time
+    69130182 (22.99%) aligned concordantly >1 times
+    ----
+    112483603 pairs aligned concordantly 0 times; of these:
+      11599513 (10.31%) aligned discordantly 1 time
+    ----
+    100884090 pairs aligned 0 times concordantly or discordantly; of these:
+      201768180 mates make up the pairs; of these:
+        181046803 (89.73%) aligned 0 times
+        12511785 (6.20%) aligned exactly 1 time
+        8209592 (4.07%) aligned >1 times
+69.89% overall alignment rate
+[bam_sort_core] merging from 168 files and 21 in-memory blocks...

@@ -1,0 +1,5 @@
+HC2
+[E::hts_open_format] Failed to open file "HC2.bam" : No such file or directory
+samtools view: failed to open "HC2.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file "../../6_ATACseqQC/HC2.chr1.preMarkdup.bam" : No such file or directory
+samtools index: failed to open "../../6_ATACseqQC/HC2.chr1.preMarkdup.bam": No such file or directory

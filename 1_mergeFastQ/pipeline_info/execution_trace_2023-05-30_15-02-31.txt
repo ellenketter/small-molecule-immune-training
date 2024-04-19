@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+2	0d/efbdce	3702839	NFCORE_ATACSEQ:ATACSEQ:INPUT_CHECK:SAMPLESHEET_CHECK (samplesheet.valid.csv)	FAILED	1	2023-05-30 15:03:03.870	176ms	152ms	-	-	-	-	-

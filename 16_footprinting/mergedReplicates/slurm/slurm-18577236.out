@@ -1,0 +1,15 @@
+The index file of /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/PBS.bam doesn't exist, generating with Pysam
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-hint", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/HINT/Main.py", line 95, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/HINT/Footprinting.py", line 110, in footprinting_run
+    atac_seq(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/HINT/Footprinting.py", line 249, in atac_seq
+    original_regions.read(args.input_files[1])
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/PBS_peaks.narrowPeak'

@@ -1,0 +1,124 @@
+Fluni
+INFO  @ Mon, 11 Mar 2024 09:46:22: 
+# Command line: callpeak -f BAMPE -t Fluni.bam -g mm -n ./Fluni -B --keep-dup all
+# ARGUMENTS LIST:
+# name = ./Fluni
+# format = BAMPE
+# ChIP-seq file = ['Fluni.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 11 Mar 2024 09:46:22: #1 read fragment files... 
+INFO  @ Mon, 11 Mar 2024 09:46:22: #1 read treatment fragments... 
+INFO  @ Mon, 11 Mar 2024 09:46:25:  1000000 
+INFO  @ Mon, 11 Mar 2024 09:46:28:  2000000 
+INFO  @ Mon, 11 Mar 2024 09:46:32:  3000000 
+INFO  @ Mon, 11 Mar 2024 09:46:35:  4000000 
+INFO  @ Mon, 11 Mar 2024 09:46:38:  5000000 
+INFO  @ Mon, 11 Mar 2024 09:46:41:  6000000 
+INFO  @ Mon, 11 Mar 2024 09:46:44:  7000000 
+INFO  @ Mon, 11 Mar 2024 09:46:48:  8000000 
+INFO  @ Mon, 11 Mar 2024 09:46:51:  9000000 
+INFO  @ Mon, 11 Mar 2024 09:46:54:  10000000 
+INFO  @ Mon, 11 Mar 2024 09:46:57:  11000000 
+INFO  @ Mon, 11 Mar 2024 09:47:00:  12000000 
+INFO  @ Mon, 11 Mar 2024 09:47:04:  13000000 
+INFO  @ Mon, 11 Mar 2024 09:47:07:  14000000 
+INFO  @ Mon, 11 Mar 2024 09:47:10:  15000000 
+INFO  @ Mon, 11 Mar 2024 09:47:13:  16000000 
+INFO  @ Mon, 11 Mar 2024 09:47:16:  17000000 
+INFO  @ Mon, 11 Mar 2024 09:47:20:  18000000 
+INFO  @ Mon, 11 Mar 2024 09:47:23:  19000000 
+INFO  @ Mon, 11 Mar 2024 09:47:26:  20000000 
+INFO  @ Mon, 11 Mar 2024 09:47:29:  21000000 
+INFO  @ Mon, 11 Mar 2024 09:47:33:  22000000 
+INFO  @ Mon, 11 Mar 2024 09:47:36:  23000000 
+INFO  @ Mon, 11 Mar 2024 09:47:39:  24000000 
+INFO  @ Mon, 11 Mar 2024 09:47:42:  25000000 
+INFO  @ Mon, 11 Mar 2024 09:47:45:  26000000 
+INFO  @ Mon, 11 Mar 2024 09:47:49:  27000000 
+INFO  @ Mon, 11 Mar 2024 09:47:52:  28000000 
+INFO  @ Mon, 11 Mar 2024 09:47:55:  29000000 
+INFO  @ Mon, 11 Mar 2024 09:47:58:  30000000 
+INFO  @ Mon, 11 Mar 2024 09:48:01:  31000000 
+INFO  @ Mon, 11 Mar 2024 09:48:05:  32000000 
+INFO  @ Mon, 11 Mar 2024 09:48:08:  33000000 
+INFO  @ Mon, 11 Mar 2024 09:48:11:  34000000 
+INFO  @ Mon, 11 Mar 2024 09:48:14:  35000000 
+INFO  @ Mon, 11 Mar 2024 09:48:17:  36000000 
+INFO  @ Mon, 11 Mar 2024 09:48:21:  37000000 
+INFO  @ Mon, 11 Mar 2024 09:48:24:  38000000 
+INFO  @ Mon, 11 Mar 2024 09:48:27:  39000000 
+INFO  @ Mon, 11 Mar 2024 09:48:30:  40000000 
+INFO  @ Mon, 11 Mar 2024 09:48:33:  41000000 
+INFO  @ Mon, 11 Mar 2024 09:48:37:  42000000 
+INFO  @ Mon, 11 Mar 2024 09:48:40:  43000000 
+INFO  @ Mon, 11 Mar 2024 09:48:43:  44000000 
+INFO  @ Mon, 11 Mar 2024 09:48:46:  45000000 
+INFO  @ Mon, 11 Mar 2024 09:48:49:  46000000 
+INFO  @ Mon, 11 Mar 2024 09:48:53:  47000000 
+INFO  @ Mon, 11 Mar 2024 09:48:56:  48000000 
+INFO  @ Mon, 11 Mar 2024 09:48:59:  49000000 
+INFO  @ Mon, 11 Mar 2024 09:49:02:  50000000 
+INFO  @ Mon, 11 Mar 2024 09:49:05:  51000000 
+INFO  @ Mon, 11 Mar 2024 09:49:09:  52000000 
+INFO  @ Mon, 11 Mar 2024 09:49:12:  53000000 
+INFO  @ Mon, 11 Mar 2024 09:49:15:  54000000 
+INFO  @ Mon, 11 Mar 2024 09:49:18:  55000000 
+INFO  @ Mon, 11 Mar 2024 09:49:22:  56000000 
+INFO  @ Mon, 11 Mar 2024 09:49:25:  57000000 
+INFO  @ Mon, 11 Mar 2024 09:49:28:  58000000 
+INFO  @ Mon, 11 Mar 2024 09:49:31:  59000000 
+INFO  @ Mon, 11 Mar 2024 09:49:34:  60000000 
+INFO  @ Mon, 11 Mar 2024 09:49:38:  61000000 
+INFO  @ Mon, 11 Mar 2024 09:49:41:  62000000 
+INFO  @ Mon, 11 Mar 2024 09:49:44:  63000000 
+INFO  @ Mon, 11 Mar 2024 09:49:47:  64000000 
+INFO  @ Mon, 11 Mar 2024 09:49:50:  65000000 
+INFO  @ Mon, 11 Mar 2024 09:49:54:  66000000 
+INFO  @ Mon, 11 Mar 2024 09:49:57:  67000000 
+INFO  @ Mon, 11 Mar 2024 09:50:00:  68000000 
+INFO  @ Mon, 11 Mar 2024 09:50:03:  69000000 
+INFO  @ Mon, 11 Mar 2024 09:50:06:  70000000 
+INFO  @ Mon, 11 Mar 2024 09:50:10:  71000000 
+INFO  @ Mon, 11 Mar 2024 09:50:13:  72000000 
+INFO  @ Mon, 11 Mar 2024 09:50:16:  73000000 
+INFO  @ Mon, 11 Mar 2024 09:50:19:  74000000 
+INFO  @ Mon, 11 Mar 2024 09:50:22:  75000000 
+INFO  @ Mon, 11 Mar 2024 09:50:25:  76000000 
+INFO  @ Mon, 11 Mar 2024 09:50:29:  77000000 
+INFO  @ Mon, 11 Mar 2024 09:50:32:  78000000 
+INFO  @ Mon, 11 Mar 2024 09:50:35:  79000000 
+INFO  @ Mon, 11 Mar 2024 09:50:38:  80000000 
+INFO  @ Mon, 11 Mar 2024 09:50:41:  81000000 
+INFO  @ Mon, 11 Mar 2024 09:50:45:  82000000 
+INFO  @ Mon, 11 Mar 2024 09:50:48:  83000000 
+INFO  @ Mon, 11 Mar 2024 09:50:51:  84000000 
+INFO  @ Mon, 11 Mar 2024 09:50:54:  85000000 
+INFO  @ Mon, 11 Mar 2024 09:50:56: 85591810 fragments have been read. 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #1 mean fragment size is determined as 157.1 bp from treatment 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #1 fragment size = 157.1 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #1  total fragments in treatment: 85591810 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #1 finished! 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #2 Build Peak Model... 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #2 Skipped... 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #3 Call peaks... 
+INFO  @ Mon, 11 Mar 2024 09:51:57: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 11 Mar 2024 09:55:49: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 11 Mar 2024 09:55:49: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ./Fluni_treat_pileup.bdg 
+INFO  @ Mon, 11 Mar 2024 09:55:49: #3   Write bedGraph files for control lambda (after scaling if necessary)... ./Fluni_control_lambda.bdg 
+INFO  @ Mon, 11 Mar 2024 09:55:49: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 11 Mar 2024 09:55:49: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 11 Mar 2024 09:59:16: #4 Write output xls file... ./Fluni_peaks.xls 
+INFO  @ Mon, 11 Mar 2024 09:59:16: #4 Write peak in narrowPeak format file... ./Fluni_peaks.narrowPeak 
+INFO  @ Mon, 11 Mar 2024 09:59:16: #4 Write summits bed file... ./Fluni_summits.bed 
+INFO  @ Mon, 11 Mar 2024 09:59:16: Done! 

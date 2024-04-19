@@ -1,0 +1,17 @@
+PBSa2
+322471429 reads; of these:
+  322471429 (100.00%) were paired; of these:
+    131952698 (40.92%) aligned concordantly 0 times
+    122812002 (38.08%) aligned concordantly exactly 1 time
+    67706729 (21.00%) aligned concordantly >1 times
+    ----
+    131952698 pairs aligned concordantly 0 times; of these:
+      9634725 (7.30%) aligned discordantly 1 time
+    ----
+    122317973 pairs aligned 0 times concordantly or discordantly; of these:
+      244635946 mates make up the pairs; of these:
+        223412910 (91.32%) aligned 0 times
+        13489231 (5.51%) aligned exactly 1 time
+        7733805 (3.16%) aligned >1 times
+65.36% overall alignment rate
+[bam_sort_core] merging from 189 files and 21 in-memory blocks...

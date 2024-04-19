@@ -1,0 +1,16 @@
+30012210 reads; of these:
+  30012210 (100.00%) were paired; of these:
+    11159691 (37.18%) aligned concordantly 0 times
+    12107022 (40.34%) aligned concordantly exactly 1 time
+    6745497 (22.48%) aligned concordantly >1 times
+    ----
+    11159691 pairs aligned concordantly 0 times; of these:
+      858766 (7.70%) aligned discordantly 1 time
+    ----
+    10300925 pairs aligned 0 times concordantly or discordantly; of these:
+      20601850 mates make up the pairs; of these:
+        18641576 (90.48%) aligned 0 times
+        1261203 (6.12%) aligned exactly 1 time
+        699071 (3.39%) aligned >1 times
+68.94% overall alignment rate
+[bam_sort_core] merging from 18 files and 1 in-memory blocks...

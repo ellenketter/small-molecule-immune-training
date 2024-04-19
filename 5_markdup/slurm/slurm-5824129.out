@@ -1,0 +1,7 @@
+5F1
+[bam_mating_core] ERROR: Coordinate sorted, require grouped/sorted by queryname.
+/var/spool/slurm/d/job5824129/slurm_script: line 18: cd: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/6_removeDuplicates/merged/: No such file or directory
+[E::hts_open_format] Failed to open file "5F1_fixmate.bam" : No such file or directory
+samtools sort: can't open "5F1_fixmate.bam": No such file or directory
+[E::hts_open_format] Failed to open file "5F1_fixmate.sorted.bam" : No such file or directory
+samtools markdup: failed to open "5F1_fixmate.sorted.bam" for input: No such file or directory

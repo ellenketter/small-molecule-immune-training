@@ -1,0 +1,5 @@
+Nerol3
+[E::hts_open_format] Failed to open file "Nerol3.bam" : No such file or directory
+samtools view: failed to open "Nerol3.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file "../../6_ATACseqQC/Nerol3.chr1.preMarkdup.bam" : No such file or directory
+samtools index: failed to open "../../6_ATACseqQC/Nerol3.chr1.preMarkdup.bam": No such file or directory

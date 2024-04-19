@@ -1,0 +1,6 @@
+AEK-RK-1s-5F1_S7
+[E::hts_idx_push] Unsorted positions on sequence #13: 153047757 followed by 153047493
+[E::sam_index] Read 'A00639:1547:H2MKJDRX3:1:1101:2926:1047' with ref_name='3', ref_length=160039680, flags=163, pos=153047493 cannot be indexed
+samtools index: failed to create index for "AEK-RK-1s-5F1_S7.bam": No such file or directory
+[E::idx_find_and_load] Could not retrieve index file for 'AEK-RK-1s-5F1_S7.bam'
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.

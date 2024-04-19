@@ -1,0 +1,10 @@
+AEK-RK-1s-PBS1_S1
+/var/spool/slurm/d/job2809119/slurm_script: line 14: 3064999 Killed                  samtools sort -@ 5 $1.bam -o $1.sorted.bam
+[E::hts_open_format] Failed to open file "AEK-RK-1s-PBS1_S1.sorted.bam" : No such file or directory
+samtools index: failed to open "AEK-RK-1s-PBS1_S1.sorted.bam": No such file or directory
+[E::hts_open_format] Failed to open file "AEK-RK-1s-PBS1_S1.sorted.bam" : No such file or directory
+samtools view: failed to open "AEK-RK-1s-PBS1_S1.sorted.bam" for reading: No such file or directory
+samtools sort: failed to read header from "../6_removeChrM/AEK-RK-1s-PBS1_S1.bam"
+[E::hts_open_format] Failed to open file "../6_removeChrM/AEK-RK-1s-PBS1_S1.sorted.bam" : No such file or directory
+samtools coverage: Could not open "../6_removeChrM/AEK-RK-1s-PBS1_S1.sorted.bam": No such file or directory
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2809119.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

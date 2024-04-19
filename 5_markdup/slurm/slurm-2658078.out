@@ -1,0 +1,5 @@
+AEK-RK-1s-BG1_S24
+/var/spool/slurm/d/job2658078/slurm_script: line 18: 281064 Killed                  samtools sort -@ 10 -o $1_fixmate.sorted.bam $1_fixmate.bam
+[E::hts_open_format] Failed to open file "AEK-RK-1s-BG1_S24_fixmate.sorted.bam" : No such file or directory
+samtools markdup: failed to open "AEK-RK-1s-BG1_S24_fixmate.sorted.bam" for input: No such file or directory
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2658078.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

@@ -1,0 +1,2 @@
+BG3
+samtools index: "../../6_ATACseqQC/BG3.chr1.bam" is in a format that cannot be usefully indexed

@@ -1,0 +1,500 @@
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> 5F1, 189499 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [5F1], 189499 regions... [86.128 seconds]
+
+[total time: 0h 1m 27s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> 5F2, 286026 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [5F2], 286026 regions... [129.277 seconds]
+
+[total time: 0h 2m 10s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> 5F3, 331545 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [5F3], 331545 regions... [146.569 seconds]
+
+[total time: 0h 2m 28s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> BG1, 540339 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [BG1], 540339 regions... [238.702 seconds]
+
+[total time: 0h 4m 1s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> BG3, 566827 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [BG3], 566827 regions... [250.765 seconds]
+
+[total time: 0h 4m 13s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fen1, 333966 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fen1], 333966 regions... [146.763 seconds]
+
+[total time: 0h 2m 28s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fen2, 509737 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fen2], 509737 regions... [222.301 seconds]
+
+[total time: 0h 3m 44s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fen3, 392769 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fen3], 392769 regions... [171.478 seconds]
+
+[total time: 0h 2m 53s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fluni1, 194371 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fluni1], 194371 regions... [89.335 seconds]
+
+[total time: 0h 1m 30s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fluni2, 164152 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fluni2], 164152 regions... [73.557 seconds]
+
+[total time: 0h 1m 14s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fluni3, 53577 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fluni3], 53577 regions... [24.038 seconds]
+
+[total time: 0h 0m 24s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> HC1, 235621 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [HC1], 235621 regions... [105.592 seconds]
+
+[total time: 0h 1m 47s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> HC2, 182182 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [HC2], 182182 regions... [83.358 seconds]
+
+[total time: 0h 1m 24s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> HC3, 35607 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [HC3], 35607 regions... [15.786 seconds]
+
+[total time: 0h 0m 16s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> HQ1, 336071 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [HQ1], 336071 regions... [153.559 seconds]
+
+[total time: 0h 2m 35s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> HQ2, 471517 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [HQ2], 471517 regions... [205.347 seconds]
+
+[total time: 0h 3m 27s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/Myr1.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/Myr2.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/Myr3.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/Nerol1.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/Nerol2.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/Nerol3.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/PBS1.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/PBS2.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/PBS3.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/PBSa1.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/PBSa2.bed'
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-motifanalysis", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Main.py", line 58, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/motifanalysis/Match.py", line 179, in main
+    regions.read(npath(input_filename))
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 254, in read
+    io.read_to_grs(self, filename)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/GenomicRegionSet.py", line 52, in read_to_grs
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/PBSa3.bed'

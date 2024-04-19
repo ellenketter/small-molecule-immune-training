@@ -1,0 +1,17 @@
+16237372 reads; of these:
+  16237372 (100.00%) were paired; of these:
+    5656354 (34.84%) aligned concordantly 0 times
+    6900517 (42.50%) aligned concordantly exactly 1 time
+    3680501 (22.67%) aligned concordantly >1 times
+    ----
+    5656354 pairs aligned concordantly 0 times; of these:
+      537967 (9.51%) aligned discordantly 1 time
+    ----
+    5118387 pairs aligned 0 times concordantly or discordantly; of these:
+      10236774 mates make up the pairs; of these:
+        9150773 (89.39%) aligned 0 times
+        662221 (6.47%) aligned exactly 1 time
+        423780 (4.14%) aligned >1 times
+71.82% overall alignment rate
+[main_samview] fail to read the header from "-".
+samtools sort: failed to read header from "-"

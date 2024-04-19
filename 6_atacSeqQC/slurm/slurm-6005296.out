@@ -1,0 +1,5 @@
+HQ2
+[W::bam_hdr_read] EOF marker is absent. The input is probably truncated
+[E::bgzf_read_block] Failed to read BGZF block data at offset 494923177 expected 9483 bytes; hread returned 4677
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes
+samtools index: failed to create index for "../../6_ATACseqQC/HQ2.preMarkdup.chr1.bam": No such file or directory

@@ -1,0 +1,3 @@
+AEK-RK-1s-5F1_S7
+[E::idx_find_and_load] Could not retrieve index file for 'AEK-RK-1s-5F1_S7.bam'
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.

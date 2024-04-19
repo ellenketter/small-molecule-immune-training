@@ -1,0 +1,364 @@
+---
+title: "<center>Small Molecule Induction of Trained Immunity: Quality Control</center>"
+author: "<center>Ellen Ketter<center><br>"
+date: "<center> _`r Sys.Date()`_ <center>"
+output:
+  html_document:
+    code_folding: show
+    df_print: paged
+    theme: yeti
+    highlight: tango
+    toc: yes
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    number_sections: true
+  pdf_document:
+    fig_caption: yes
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+library(ATACseqQC)
+library(Rsamtools)
+library(stringr)
+library(TxDb.Mmusculus.UCSC.mm10.knownGene)
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+
+
+setwd("/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/6_ATACseqQC/")
+source(system.file("extdata", "IGVSnapshot.R", package = "ATACseqQC"))
+
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+knitr::opts_knit$set(root.dir = "/project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/6_ATACseqQC/")
+```
+
+# Pre-processing and read mapping
+
+## Pipelines used or modified
+Pre-processing steps were guided by the tutorial provided by [HarvadInformatics](https://github.com/harvardinformatics/ATAC-seq). Evan Wu applied [nextflow](https://nf-co.re/atacseq)'s atac-seq pre-processing pipeline, which while not used in the final analysis, helped inspire use of multiqc and diffbind. 
+
+
+## Aligning pre-processed reads
+
+Raw reads were quality checked using [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) then sequence adapters removed with [NGmerge](https://github.com/harvardinformatics/NGmerge/blob/master/README.md). The reads were then aligned to the mouse reference genome (mm10) using [bowtie2](https://bowtie-bio.sourceforge.net/bowtie2/manual.shtml). Using a separate pipeline [nextflow](https://nf-co.re/atacseq), Evan Wu generated a [summary report](multiqc.html) of the quality of raw reads, as well as the results of BWA alignment to GRCm38 generated using [multiqc](https://multiqc.info/).
+
+Duplicates were removed using samtools fixmate -> sort -> markdup. Samtools markdup used the following parameters: -r (remove duplicates), -s (generate basic stats about duplicates, with -f specifying stats filename), and -d 2500 (the optical duplicate distance recommended for NovaSeq platforms). 
+
+## Peak calling
+
+Mapped reads were de-duplicated using [Samtools](http://www.htslib.org/) fixmate and markdup. Filtering with samtools We then called peaks on the processed BAM files using [MACS2](https://pypi.org/project/MACS2/). 
+
+*** 
+
+# Affinity binding matrix
+
+## Preliminary analysis of called peaks
+
+```{r 1.1}
+# Generate list of bam files and sample labels
+bamfile <- list.files()
+bamfile <- str_subset(bamfile, "bai", negate = TRUE)
+bamfile <- str_subset(bamfile, ".bam")
+
+bamfileLabels <- gsub(".bam","",bamfile)
+
+possibleTag <- list("integer"=c("AM", "AS", "CM", "CP", "FI", "H0", "H1", "H2", 
+                                "HI", "IH", "MQ", "NH", "NM", "OP", "PQ", "SM",
+                                "TC", "UQ"), 
+                    "character"=c("BC", "BQ", "BZ", "CB", "CC", "CO", "CQ", "CR",
+                                  "CS", "CT", "CY", "E2", "FS", "LB", "MC", "MD",
+                                  "MI", "OA", "OC", "OQ", "OX", "PG", "PT", "PU",
+                                  "Q2", "QT", "QX", "R2", "RG", "RX", "SA", "TS",
+                                  "U2"))
+tsseScoreList <- c()
+
+for(i in 1:length(bamfile)){
+  print(bamfile[i])
+  bamTop100 <- scanBam(BamFile(bamfile[i], yieldSize = 100),
+                     param = ScanBamParam(tag=unlist(possibleTag)))[[1]]$tag
+  tags <- names(bamTop100)[lengths(bamTop100)>0]
+  tags
+  ## files will be output into outPath
+  outPath <- "shifted_chr1/"
+  # dir.create(outPath)
+
+  ## shift the coordinates of 5'ends of alignments in the bam file
+  seqinformation <- seqinfo(TxDb.Mmusculus.UCSC.mm10.knownGene)
+  seqlev <- "chr1"
+  which <- as(seqinformation[seqlev], "GRanges")
+  gal <- readBamFile(bamfile[i], tag=tags, which=which, asMates=TRUE, bigFile=TRUE)
+  shiftedBamfile <- file.path(outPath, paste0(bamfileLabels[i],".shifted.bam"))
+  gal1 <- shiftGAlignmentsList(gal, outbam=shiftedBamfile)
+  
+  ## generate transcription start site enrichment score and append to list
+  tsse <- TSSEscore(gal1, txs)
+  tsseItem<- c(tsse$TSSEscore)
+  names(tsseItem) <- bamfileLabels[i]
+  tsseScoreList <- append(tsseScoreList,tsseItem)
+  
+  pdf(paste0(bamfileLabels[i],"_plots.pdf"))
+  pt <- PTscore(gal1, txs)
+  plot(pt$log2meanCoverage, pt$PT_score, 
+     xlab="log2 mean coverage",
+     ylab="Promoter vs Transcript")
+  
+  nfr <- NFRscore(gal1, txs)
+  plot(nfr$log2meanCoverage, nfr$NFR_score, 
+     xlab="log2 mean coverage",
+     ylab="Nucleosome Free Regions score",
+     main="NFRscore for 200bp flanking TSSs",
+     xlim=c(-10, 0), ylim=c(-5, 5))
+  dev.off()
+  
+  }
+saveRDS(tsseScoreList,file = "tsseScoreList.rds")
+
+```
+
+The R package [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html) was used for the main analysis. Peak data for each sample was read in and merged, identifying `r peak_results$totalMerged` unique peak sites; of those `r dim(peak_results$called)[1]` sites were called in at least two samples. 
+
+## Creating the affinity binding matrix
+
+```{r 1.2}
+# Generate list of bam files and sample labels
+bamfile <- list.files()
+bamfile <- str_subset(bamfile, "bai", negate = TRUE)
+bamfile <- str_subset(bamfile, "BG3", negate = TRUE)
+bamfile <- str_subset(bamfile, "Fen2", negate = TRUE)
+
+bamfile <- str_subset(bamfile, "preMarkdup.chr1.bam")
+
+bamfileLabels <- gsub(".bam","",bamfile)
+
+possibleTag <- list("integer"=c("AM", "AS", "CM", "CP", "FI", "H0", "H1", "H2", 
+                                "HI", "IH", "MQ", "NH", "NM", "OP", "PQ", "SM",
+                                "TC", "UQ"), 
+                    "character"=c("BC", "BQ", "BZ", "CB", "CC", "CO", "CQ", "CR",
+                                  "CS", "CT", "CY", "E2", "FS", "LB", "MC", "MD",
+                                  "MI", "OA", "OC", "OQ", "OX", "PG", "PT", "PU",
+                                  "Q2", "QT", "QX", "R2", "RG", "RX", "SA", "TS",
+                                  "U2"))
+tsseScoreList <- c()
+
+for(i in 10:length(bamfile)){
+  print(bamfile[i])
+  bamTop100 <- scanBam(BamFile(bamfile[i], yieldSize = 100),
+                     param = ScanBamParam(tag=unlist(possibleTag)))[[1]]$tag
+  tags <- names(bamTop100)[lengths(bamTop100)>0]
+  tags
+  ## files will be output into outPath
+  outPath <- "shifted_chr1/"
+  # dir.create(outPath)
+
+  ## shift the coordinates of 5'ends of alignments in the bam file
+  seqinformation <- seqinfo(TxDb.Mmusculus.UCSC.mm10.knownGene)
+  seqlev <- "chr1"
+  which <- as(seqinformation[seqlev], "GRanges")
+  gal <- readBamFile(bamfile[i], tag=tags, which=which, asMates=TRUE, bigFile=TRUE)
+  shiftedBamfile <- file.path(outPath, paste0(bamfileLabels[i],".shifted.bam"))
+  gal1 <- shiftGAlignmentsList(gal, outbam=shiftedBamfile)
+  txs <- transcripts(TxDb.Mmusculus.UCSC.mm10.knownGene)
+  
+  ## generate transcription start site enrichment score and append to list
+  tsse <- TSSEscore(gal1, txs)
+  tsseItem<- c(tsse$TSSEscore)
+  print(tsseItem)
+  names(tsseItem) <- bamfileLabels[i]
+  tsseScoreList <- append(tsseScoreList,tsseItem)
+  
+  pdf(paste0(bamfileLabels[i],"_plots.pdf"))
+  pt <- PTscore(gal1, txs)
+  plot(pt$log2meanCoverage, pt$PT_score, 
+     xlab="log2 mean coverage",
+     ylab="Promoter vs Transcript")
+  
+  nfr <- NFRscore(gal1, txs)
+  plot(nfr$log2meanCoverage, nfr$NFR_score, 
+     xlab="log2 mean coverage",
+     ylab="Nucleosome Free Regions score",
+     main="NFRscore for 200bp flanking TSSs",
+     xlim=c(-10, 0), ylim=c(-5, 5))
+  dev.off()
+  
+  }
+saveRDS(tsseScoreList,file = "tsseScoreList_preMarkdup.rds")
+
+
+```
+
+The accessibility matrix was formed, counting the number of aligned reads for each potential binding site in the consensus peakset of at least `r minOverlap` samples. Peaks were also filtered based on the available ENCODE blacklist for the corresponding reference genome, leaving `r dim(peak_counts$called)[1]` sites in the consensus set. Preliminary clustering of samples were analyzed with a PCA plot and per-sample correlation heatmap. 
+
+***
+
+# Consensus peakset overlap analysis
+
+```{r 2}
+tsseScoreList <- readRDS("./tsseScoreList_preMarkdupFull.rds")
+tsseScoreList <- as.data.frame(tsseScoreList)
+treatments <- c("5F", "5F","5F", "BG", 
+                "Fen", "Fen", 
+                "Fluni", "Fluni",
+                "HC",  "HC",  "HC", 
+                "HQ", "HQ",
+                "Myr", "Myr", "Myr", 
+                "Nerol", "Nerol", "Nerol",
+                "PBS", "PBS", "PBS", "PBS", "PBS", "PBS")
+# BG3 and Fen2 were too large to calculate a score
+# Fluni3 also threw an error and script would crash, likely memory related
+
+tsseScoreList <- cbind(treatments, tsseScoreList)
+colnames(tsseScoreList) <- c("treatments", "tsseScore")
+jpeg(file="tsseScores.jpeg")
+
+# create a dataset
+tsseScoreList %>%
+  ggplot( aes(x=treatments, y=tsseScore, fill=treatments)) +
+    geom_boxplot() +
+    scale_fill_viridis(discrete = TRUE, alpha=0.6) +
+    theme_ipsum() +
+    theme(
+      legend.position="none",
+     plot.title = element_text(size=11)
+    ) +
+    ggtitle("Transcription Start Site Enrichment per Sample") +
+    xlab("") +
+    ylim(0,15)
+
+
+dev.off() 
+```
+
+We generated BED files (consensus_overlap_CONDITION.bed) for the overlapping consensus peaks of each possible combination of conditions, specifying that a peak is called in at least `r minOverlap` samples in each condition to be included in the consensus set. 
+
+***
+
+# Differential accessibility analysis
+
+```{r 3}
+# Create contrast
+peak.counts.contrast <- dba.contrast(peak_counts, categories = DBA_CONDITION, reorderMeta = list(Condition="control"))
+
+# Model differential accessibility using both deseq2 and edger
+peak.counts.contrast <- dba.analyze(peak.counts.contrast, method = DBA_ALL_METHODS, bBlacklist = F, bGreylist = F)
+
+print(dba.show(peak.counts.contrast, bContrasts = T))
+
+# MA plot of differential sites
+par(mfrow = c(1,2))
+dba.plotMA(peak.counts.contrast, factor = "DESeq2", method = DBA_DESEQ2, bSmooth = F)
+dba.plotMA(peak.counts.contrast, factor = "EdgeR", method = DBA_EDGER, bSmooth = F)
+
+# Volcano plot of differential sites
+dba.plotVolcano(peak.counts.contrast, factor = "DESeq2", method = DBA_DESEQ2)
+dba.plotVolcano(peak.counts.contrast, factor = "EdgeR", method = DBA_EDGER)
+
+# Venn diagram of shared differential sites between deseq2 and edger
+dba.plotVenn(peak.counts.contrast, contrast = 1, method = DBA_ALL_METHODS)
+
+# Save sites separately for deseq2 and edger
+db_deseq <- dba.report(peak.counts.contrast, contrast = 1, method = DBA_DESEQ2, 
+                       th = 1, bUsePval = F, bCounts = T,
+                       # fold = 1.5,  
+                       bNormalized = T, DataType = DBA_DATA_FRAME)
+
+write.table(db_deseq, "diff_acc_deseq2.txt", sep = "\t", quote = F, row.names = FALSE)
+
+db_edger <- dba.report(peak.counts.contrast, contrast = 1, method = DBA_EDGER, 
+                       th = 1, bUsePval = F, bCounts = T,
+                       # fold = 1.5,  
+                       bNormalized = T, DataType = DBA_DATA_FRAME)
+
+write.table(db_edger, "diff_acc_edger.txt", sep = "\t", quote = F, row.names = FALSE)
+```
+
+Contrasts were specified between the sample conditions and read counts were modeled using both [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) and [EdgeR](https://bioconductor.org/packages/release/bioc/html/edgeR.html) methods. Differential accessibility was tested at the FDR < 0.05 level and results for each method are saved (diff_acc_METHOD.txt). We proceeded using DESeq2 results in the downstream analysis as default.  
+
+***
+
+# Functional analysis
+
+## Peakset annotation
+
+```{r 4.1}
+# Create bed files for gain/loss of enrichment
+db_deseq_enriched <- db_deseq %>% filter(FDR < 0.05 & Fold > 0) %>% dplyr::select(Chr, Start, End)
+db_deseq_poor <- db_deseq %>% filter(FDR < 0.05 & Fold < 0) %>% dplyr::select(Chr, Start, End)
+
+write.table(db_deseq_enriched, file="KO_enriched.bed", sep="\t", quote=F, row.names=F, col.names=F)
+write.table(db_deseq_poor, file="WT_enriched.bed", sep="\t", quote=F, row.names=F, col.names=F)
+
+# Annotate peaksets
+txdb <- TxDb.Mmusculus.UCSC.mm10.knownGene
+peak_enriched <- addchr(GRanges(db_deseq_enriched))
+peak_poor <- addchr(GRanges(db_deseq_poor))
+anno_peaks <- lapply(list(peak_enriched,peak_poor), annotatePeak, TxDb = txdb, annoDb = "org.Mm.eg.db", verbose = F) 
+names(anno_peaks) <- c("KO", "WT")
+
+# Plot genomic feature representation
+plotAnnoBar(anno_peaks)
+
+# Plot TF-binding loci relative to TSS
+plotDistToTSS(anno_peaks)
+
+# Save annotations
+ko_annot <- data.frame(anno_peaks[["KO"]]@anno)
+wt_annot <- data.frame(anno_peaks[["WT"]]@anno)
+
+write.table(ko_annot, file="KO_annotated_peaks.txt", sep="\t", quote=F, row.names=F)
+write.table(wt_annot, file="WT_annotated_peaks.txt", sep="\t", quote=F, row.names=F)
+```
+
+The  differentially accessible peakset was separated by enrichment in a particular condition (CONDITION_enriched.bed) and annotated by looking for the nearest TSS to the given peak intervals using known gene sets from the relevant reference genome. The annotations for each condition are saved (CONDITION_annotated_peaks.txt).
+
+## Functional enrichment of gene-associated peaks
+
+```{r 4.2}
+# GO enrichment for biological processes
+ko_gost <- gost(ko_annot$geneId, organism = "mmusculus", correction_method = "fdr")
+wt_gost <- gost(wt_annot$geneId, organism = "mmusculus", correction_method = "fdr")
+ko_gost$result$query <- "KO enriched"
+wt_gost$result$query <- "WT enriched"
+
+gostplot(ko_gost, interactive = T, capped = F)
+gostplot(wt_gost, interactive = T, capped = F)
+
+# Save GO results
+write.table(ko_gost$result[,1:13], file="KO_go_table.txt", sep="\t", quote=F, row.names=F)
+write.table(wt_gost$result[,1:13], file="WT_go_table.txt", sep="\t", quote=F, row.names=F)
+```
+
+Gene ontology enrichment was performed using [gprofiler2](https://biit.cs.ut.ee/gprofiler/page/r) for each condition-enriched annotated peakset to obtain significantly enriched genesets at FDR < 0.05, mouse over bubbles to see the geneset information and p-values. The GO results are saved in tabular form (CONDITION_go_table.txt).
+
+
+```{r peak counts annotated, eval=F}
+peakset <- peak_counts[[1]][[1]] %>% dplyr::select(seqnames, start, end)
+write.table(peakset, file="peak_counts.bed", sep="\t", quote=F, row.names=F, col.names=F)
+
+txdb <- TxDb.Mmusculus.UCSC.mm10.knownGene
+peak_anno <- annotatePeak("peak_counts.bed", TxDb = txdb, annoDb = "org.Mm.eg.db", verbose = F)
+peak_anno_df <- data.frame(peak_anno@anno)
+peak_anno_df <- peak_anno_df %>% mutate(start = start - 1)
+
+for (i in 1:length(peak_counts$peaks)) {
+  sample_counts <- dplyr::select(peak_counts$peaks[[i]], seqnames, start, end, Reads)
+  peak_anno_df <- peak_anno_df %>% left_join(sample_counts, by = c("seqnames", "start", "end"))
+}
+
+colnames(peak_anno_df)[18:25] <- unlist(peak_counts$samples$SampleID)
+write.table(peak_anno_df, file = "peak_counts_annotated.txt", sep = "\t", quote = F, row.names = F)
+```
+
+***
+
+## Session info
+
+The output from running 'sessionInfo' is shown below and details all packages and version necessary to reproduce the results in this report.
+
+```{r session info}
+sessionInfo()
+```
+
+

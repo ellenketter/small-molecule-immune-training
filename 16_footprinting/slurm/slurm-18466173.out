@@ -1,0 +1,4 @@
+usage: rgt-hint [-h] [--version]
+                {footprinting,differential,plotting,training,estimation,evaluation,evidence,tracks}
+                ...
+rgt-hint: error: unrecognized arguments: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching/5F1_mpbs.bed, /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/motifMatching/PBS1_mpbs.bed /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/7_removeChrM/merged/5F1.bam, /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/7_removeChrM/merged/PBS1.bam PBS1

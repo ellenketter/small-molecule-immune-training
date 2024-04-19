@@ -1,0 +1,17 @@
+HC3
+395018643 reads; of these:
+  395018643 (100.00%) were paired; of these:
+    185306504 (46.91%) aligned concordantly 0 times
+    129047662 (32.67%) aligned concordantly exactly 1 time
+    80664477 (20.42%) aligned concordantly >1 times
+    ----
+    185306504 pairs aligned concordantly 0 times; of these:
+      9018133 (4.87%) aligned discordantly 1 time
+    ----
+    176288371 pairs aligned 0 times concordantly or discordantly; of these:
+      352576742 mates make up the pairs; of these:
+        325497143 (92.32%) aligned 0 times
+        17812651 (5.05%) aligned exactly 1 time
+        9266948 (2.63%) aligned >1 times
+58.80% overall alignment rate
+[bam_sort_core] merging from 231 files and 21 in-memory blocks...

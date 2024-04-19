@@ -1,0 +1,153 @@
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> 5F, 399797 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [5F], 399797 regions... [178.990 seconds]
+
+[total time: 0h 3m 1s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> BG, 642512 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [BG], 642512 regions... [282.078 seconds]
+
+[total time: 0h 4m 44s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fen, 550693 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fen], 550693 regions... [243.747 seconds]
+
+[total time: 0h 4m 6s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Fluni, 230344 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Fluni], 230344 regions... [104.282 seconds]
+
+[total time: 0h 1m 45s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> HC, 265948 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [HC], 265948 regions... [118.140 seconds]
+
+[total time: 0h 1m 59s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> HQ, 500821 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [HQ], 500821 regions... [219.173 seconds]
+
+[total time: 0h 3m 41s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Myr, 441169 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Myr], 441169 regions... [196.392 seconds]
+
+[total time: 0h 3m 18s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> Nerol, 473332 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [Nerol], 473332 regions... [210.991 seconds]
+
+[total time: 0h 3m 33s]
+>> output location: /project/lbarreiro/USERS/ellen/KnightMolecules/demultiplexed/FastQ/16_footprinting/mergedBams/motifMatching
+
+>> genome: mm10
+>> pseudocounts: 1.0
+>> fpr threshold: 0.0001
+
+>> loading input files..
+>>> PBS, 461502 regions
+
+>> loading motif databases..
+>>> jaspar_vertebrates
+
+>> motifs loaded: 746
+
+>> matching [PBS], 461502 regions... [201.324 seconds]
+
+[total time: 0h 3m 23s]

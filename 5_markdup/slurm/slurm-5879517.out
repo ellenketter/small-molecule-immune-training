@@ -1,0 +1,24 @@
+HQ2
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0002.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0003.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0004.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0005.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0001.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0006.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0009.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0007.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0008.bam" : File exists
+[E::hts_open_format] Failed to open file "HQ2.namesorted.bam.tmp.0000.bam" : File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0000.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0001.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0002.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0003.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0004.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0005.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0006.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0007.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0008.bam": File exists
+samtools sort: failed to create temporary file "HQ2.namesorted.bam.tmp.0009.bam": File exists
+[W::bam_hdr_read] EOF marker is absent. The input is probably truncated
+[bam_sort_core] merging from 190 files and 10 in-memory blocks...
+slurmstepd: error: *** JOB 5879517 ON midway3-0323 CANCELLED AT 2023-06-17T00:20:42 DUE TO TIME LIMIT ***

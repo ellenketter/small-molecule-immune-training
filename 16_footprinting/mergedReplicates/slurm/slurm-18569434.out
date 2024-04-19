@@ -1,0 +1,5 @@
+Myr
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/macs2", line 23, in <module>
+    from MACS2.Constants import *
+ModuleNotFoundError: No module named 'MACS2'

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/ellenketter/.local/bin/rgt-hint", line 8, in <module>
+    sys.exit(main())
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/HINT/Main.py", line 95, in main
+    args.func(args)
+  File "/home/ellenketter/.local/lib/python3.9/site-packages/rgt/HINT/DifferentialAnalysis.py", line 96, in diff_analysis_run
+    conditions = args.conditions.strip().split(",")
+AttributeError: 'NoneType' object has no attribute 'strip'
+/var/spool/slurm/d/job18605343/slurm_script: line 18: --conditions=5F,PBS: command not found

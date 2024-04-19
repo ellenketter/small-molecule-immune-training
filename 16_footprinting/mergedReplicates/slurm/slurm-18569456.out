@@ -1,0 +1,108 @@
+Myr
+INFO  @ Mon, 11 Mar 2024 10:01:54: 
+# Command line: callpeak -f BAMPE -t Myr.bam -g mm -n ./Myr -B --keep-dup all
+# ARGUMENTS LIST:
+# name = ./Myr
+# format = BAMPE
+# ChIP-seq file = ['Myr.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 11 Mar 2024 10:01:54: #1 read fragment files... 
+INFO  @ Mon, 11 Mar 2024 10:01:54: #1 read treatment fragments... 
+INFO  @ Mon, 11 Mar 2024 10:01:58:  1000000 
+INFO  @ Mon, 11 Mar 2024 10:02:01:  2000000 
+INFO  @ Mon, 11 Mar 2024 10:02:04:  3000000 
+INFO  @ Mon, 11 Mar 2024 10:02:08:  4000000 
+INFO  @ Mon, 11 Mar 2024 10:02:11:  5000000 
+INFO  @ Mon, 11 Mar 2024 10:02:14:  6000000 
+INFO  @ Mon, 11 Mar 2024 10:02:18:  7000000 
+INFO  @ Mon, 11 Mar 2024 10:02:21:  8000000 
+INFO  @ Mon, 11 Mar 2024 10:02:25:  9000000 
+INFO  @ Mon, 11 Mar 2024 10:02:28:  10000000 
+INFO  @ Mon, 11 Mar 2024 10:02:31:  11000000 
+INFO  @ Mon, 11 Mar 2024 10:02:35:  12000000 
+INFO  @ Mon, 11 Mar 2024 10:02:38:  13000000 
+INFO  @ Mon, 11 Mar 2024 10:02:42:  14000000 
+INFO  @ Mon, 11 Mar 2024 10:02:45:  15000000 
+INFO  @ Mon, 11 Mar 2024 10:02:48:  16000000 
+INFO  @ Mon, 11 Mar 2024 10:02:52:  17000000 
+INFO  @ Mon, 11 Mar 2024 10:02:55:  18000000 
+INFO  @ Mon, 11 Mar 2024 10:02:58:  19000000 
+INFO  @ Mon, 11 Mar 2024 10:03:02:  20000000 
+INFO  @ Mon, 11 Mar 2024 10:03:05:  21000000 
+INFO  @ Mon, 11 Mar 2024 10:03:09:  22000000 
+INFO  @ Mon, 11 Mar 2024 10:03:12:  23000000 
+INFO  @ Mon, 11 Mar 2024 10:03:15:  24000000 
+INFO  @ Mon, 11 Mar 2024 10:03:19:  25000000 
+INFO  @ Mon, 11 Mar 2024 10:03:22:  26000000 
+INFO  @ Mon, 11 Mar 2024 10:03:25:  27000000 
+INFO  @ Mon, 11 Mar 2024 10:03:29:  28000000 
+INFO  @ Mon, 11 Mar 2024 10:03:32:  29000000 
+INFO  @ Mon, 11 Mar 2024 10:03:36:  30000000 
+INFO  @ Mon, 11 Mar 2024 10:03:39:  31000000 
+INFO  @ Mon, 11 Mar 2024 10:03:42:  32000000 
+INFO  @ Mon, 11 Mar 2024 10:03:46:  33000000 
+INFO  @ Mon, 11 Mar 2024 10:03:49:  34000000 
+INFO  @ Mon, 11 Mar 2024 10:03:53:  35000000 
+INFO  @ Mon, 11 Mar 2024 10:03:56:  36000000 
+INFO  @ Mon, 11 Mar 2024 10:03:59:  37000000 
+INFO  @ Mon, 11 Mar 2024 10:04:03:  38000000 
+INFO  @ Mon, 11 Mar 2024 10:04:06:  39000000 
+INFO  @ Mon, 11 Mar 2024 10:04:09:  40000000 
+INFO  @ Mon, 11 Mar 2024 10:04:13:  41000000 
+INFO  @ Mon, 11 Mar 2024 10:04:16:  42000000 
+INFO  @ Mon, 11 Mar 2024 10:04:20:  43000000 
+INFO  @ Mon, 11 Mar 2024 10:04:23:  44000000 
+INFO  @ Mon, 11 Mar 2024 10:04:26:  45000000 
+INFO  @ Mon, 11 Mar 2024 10:04:30:  46000000 
+INFO  @ Mon, 11 Mar 2024 10:04:33:  47000000 
+INFO  @ Mon, 11 Mar 2024 10:04:36:  48000000 
+INFO  @ Mon, 11 Mar 2024 10:04:40:  49000000 
+INFO  @ Mon, 11 Mar 2024 10:04:43:  50000000 
+INFO  @ Mon, 11 Mar 2024 10:04:47:  51000000 
+INFO  @ Mon, 11 Mar 2024 10:04:50:  52000000 
+INFO  @ Mon, 11 Mar 2024 10:04:53:  53000000 
+INFO  @ Mon, 11 Mar 2024 10:04:57:  54000000 
+INFO  @ Mon, 11 Mar 2024 10:05:00:  55000000 
+INFO  @ Mon, 11 Mar 2024 10:05:04:  56000000 
+INFO  @ Mon, 11 Mar 2024 10:05:07:  57000000 
+INFO  @ Mon, 11 Mar 2024 10:05:10:  58000000 
+INFO  @ Mon, 11 Mar 2024 10:05:14:  59000000 
+INFO  @ Mon, 11 Mar 2024 10:05:17:  60000000 
+INFO  @ Mon, 11 Mar 2024 10:05:20:  61000000 
+INFO  @ Mon, 11 Mar 2024 10:05:24:  62000000 
+INFO  @ Mon, 11 Mar 2024 10:05:27:  63000000 
+INFO  @ Mon, 11 Mar 2024 10:05:31:  64000000 
+INFO  @ Mon, 11 Mar 2024 10:05:34:  65000000 
+INFO  @ Mon, 11 Mar 2024 10:05:37:  66000000 
+INFO  @ Mon, 11 Mar 2024 10:05:41:  67000000 
+INFO  @ Mon, 11 Mar 2024 10:05:44:  68000000 
+INFO  @ Mon, 11 Mar 2024 10:05:48:  69000000 
+INFO  @ Mon, 11 Mar 2024 10:05:49: 69516078 fragments have been read. 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #1 mean fragment size is determined as 185.6 bp from treatment 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #1 fragment size = 185.6 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #1  total fragments in treatment: 69516078 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #1 finished! 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #2 Build Peak Model... 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #2 Skipped... 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #3 Call peaks... 
+INFO  @ Mon, 11 Mar 2024 10:06:38: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 11 Mar 2024 10:09:56: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 11 Mar 2024 10:09:56: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ./Myr_treat_pileup.bdg 
+INFO  @ Mon, 11 Mar 2024 10:09:56: #3   Write bedGraph files for control lambda (after scaling if necessary)... ./Myr_control_lambda.bdg 
+INFO  @ Mon, 11 Mar 2024 10:09:56: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 11 Mar 2024 10:09:56: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 11 Mar 2024 10:13:02: #4 Write output xls file... ./Myr_peaks.xls 
+INFO  @ Mon, 11 Mar 2024 10:13:02: #4 Write peak in narrowPeak format file... ./Myr_peaks.narrowPeak 
+INFO  @ Mon, 11 Mar 2024 10:13:02: #4 Write summits bed file... ./Myr_summits.bed 
+INFO  @ Mon, 11 Mar 2024 10:13:03: Done! 

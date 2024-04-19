@@ -1,0 +1,116 @@
+HC
+INFO  @ Mon, 11 Mar 2024 09:50:07: 
+# Command line: callpeak -f BAMPE -t HC.bam -g mm -n ./HC -B --keep-dup all
+# ARGUMENTS LIST:
+# name = ./HC
+# format = BAMPE
+# ChIP-seq file = ['HC.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 11 Mar 2024 09:50:07: #1 read fragment files... 
+INFO  @ Mon, 11 Mar 2024 09:50:07: #1 read treatment fragments... 
+INFO  @ Mon, 11 Mar 2024 09:50:11:  1000000 
+INFO  @ Mon, 11 Mar 2024 09:50:14:  2000000 
+INFO  @ Mon, 11 Mar 2024 09:50:17:  3000000 
+INFO  @ Mon, 11 Mar 2024 09:50:20:  4000000 
+INFO  @ Mon, 11 Mar 2024 09:50:23:  5000000 
+INFO  @ Mon, 11 Mar 2024 09:50:26:  6000000 
+INFO  @ Mon, 11 Mar 2024 09:50:30:  7000000 
+INFO  @ Mon, 11 Mar 2024 09:50:33:  8000000 
+INFO  @ Mon, 11 Mar 2024 09:50:36:  9000000 
+INFO  @ Mon, 11 Mar 2024 09:50:39:  10000000 
+INFO  @ Mon, 11 Mar 2024 09:50:42:  11000000 
+INFO  @ Mon, 11 Mar 2024 09:50:45:  12000000 
+INFO  @ Mon, 11 Mar 2024 09:50:49:  13000000 
+INFO  @ Mon, 11 Mar 2024 09:50:52:  14000000 
+INFO  @ Mon, 11 Mar 2024 09:50:55:  15000000 
+INFO  @ Mon, 11 Mar 2024 09:50:58:  16000000 
+INFO  @ Mon, 11 Mar 2024 09:51:01:  17000000 
+INFO  @ Mon, 11 Mar 2024 09:51:04:  18000000 
+INFO  @ Mon, 11 Mar 2024 09:51:08:  19000000 
+INFO  @ Mon, 11 Mar 2024 09:51:11:  20000000 
+INFO  @ Mon, 11 Mar 2024 09:51:14:  21000000 
+INFO  @ Mon, 11 Mar 2024 09:51:17:  22000000 
+INFO  @ Mon, 11 Mar 2024 09:51:20:  23000000 
+INFO  @ Mon, 11 Mar 2024 09:51:23:  24000000 
+INFO  @ Mon, 11 Mar 2024 09:51:27:  25000000 
+INFO  @ Mon, 11 Mar 2024 09:51:30:  26000000 
+INFO  @ Mon, 11 Mar 2024 09:51:33:  27000000 
+INFO  @ Mon, 11 Mar 2024 09:51:36:  28000000 
+INFO  @ Mon, 11 Mar 2024 09:51:39:  29000000 
+INFO  @ Mon, 11 Mar 2024 09:51:43:  30000000 
+INFO  @ Mon, 11 Mar 2024 09:51:46:  31000000 
+INFO  @ Mon, 11 Mar 2024 09:51:49:  32000000 
+INFO  @ Mon, 11 Mar 2024 09:51:52:  33000000 
+INFO  @ Mon, 11 Mar 2024 09:51:55:  34000000 
+INFO  @ Mon, 11 Mar 2024 09:51:58:  35000000 
+INFO  @ Mon, 11 Mar 2024 09:52:02:  36000000 
+INFO  @ Mon, 11 Mar 2024 09:52:05:  37000000 
+INFO  @ Mon, 11 Mar 2024 09:52:08:  38000000 
+INFO  @ Mon, 11 Mar 2024 09:52:11:  39000000 
+INFO  @ Mon, 11 Mar 2024 09:52:14:  40000000 
+INFO  @ Mon, 11 Mar 2024 09:52:17:  41000000 
+INFO  @ Mon, 11 Mar 2024 09:52:21:  42000000 
+INFO  @ Mon, 11 Mar 2024 09:52:24:  43000000 
+INFO  @ Mon, 11 Mar 2024 09:52:27:  44000000 
+INFO  @ Mon, 11 Mar 2024 09:52:30:  45000000 
+INFO  @ Mon, 11 Mar 2024 09:52:33:  46000000 
+INFO  @ Mon, 11 Mar 2024 09:52:36:  47000000 
+INFO  @ Mon, 11 Mar 2024 09:52:40:  48000000 
+INFO  @ Mon, 11 Mar 2024 09:52:43:  49000000 
+INFO  @ Mon, 11 Mar 2024 09:52:46:  50000000 
+INFO  @ Mon, 11 Mar 2024 09:52:49:  51000000 
+INFO  @ Mon, 11 Mar 2024 09:52:52:  52000000 
+INFO  @ Mon, 11 Mar 2024 09:52:55:  53000000 
+INFO  @ Mon, 11 Mar 2024 09:52:59:  54000000 
+INFO  @ Mon, 11 Mar 2024 09:53:02:  55000000 
+INFO  @ Mon, 11 Mar 2024 09:53:05:  56000000 
+INFO  @ Mon, 11 Mar 2024 09:53:08:  57000000 
+INFO  @ Mon, 11 Mar 2024 09:53:11:  58000000 
+INFO  @ Mon, 11 Mar 2024 09:53:15:  59000000 
+INFO  @ Mon, 11 Mar 2024 09:53:18:  60000000 
+INFO  @ Mon, 11 Mar 2024 09:53:21:  61000000 
+INFO  @ Mon, 11 Mar 2024 09:53:24:  62000000 
+INFO  @ Mon, 11 Mar 2024 09:53:27:  63000000 
+INFO  @ Mon, 11 Mar 2024 09:53:30:  64000000 
+INFO  @ Mon, 11 Mar 2024 09:53:33:  65000000 
+INFO  @ Mon, 11 Mar 2024 09:53:37:  66000000 
+INFO  @ Mon, 11 Mar 2024 09:53:40:  67000000 
+INFO  @ Mon, 11 Mar 2024 09:53:43:  68000000 
+INFO  @ Mon, 11 Mar 2024 09:53:46:  69000000 
+INFO  @ Mon, 11 Mar 2024 09:53:49:  70000000 
+INFO  @ Mon, 11 Mar 2024 09:53:53:  71000000 
+INFO  @ Mon, 11 Mar 2024 09:53:56:  72000000 
+INFO  @ Mon, 11 Mar 2024 09:53:59:  73000000 
+INFO  @ Mon, 11 Mar 2024 09:54:02:  74000000 
+INFO  @ Mon, 11 Mar 2024 09:54:05:  75000000 
+INFO  @ Mon, 11 Mar 2024 09:54:08:  76000000 
+INFO  @ Mon, 11 Mar 2024 09:54:12:  77000000 
+INFO  @ Mon, 11 Mar 2024 09:54:13: 77348403 fragments have been read. 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #1 mean fragment size is determined as 139.9 bp from treatment 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #1 fragment size = 139.9 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #1  total fragments in treatment: 77348403 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #1 finished! 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #2 Build Peak Model... 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #2 Skipped... 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #3 Call peaks... 
+INFO  @ Mon, 11 Mar 2024 09:55:06: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 11 Mar 2024 09:58:37: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 11 Mar 2024 09:58:37: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ./HC_treat_pileup.bdg 
+INFO  @ Mon, 11 Mar 2024 09:58:37: #3   Write bedGraph files for control lambda (after scaling if necessary)... ./HC_control_lambda.bdg 
+INFO  @ Mon, 11 Mar 2024 09:58:37: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 11 Mar 2024 09:58:37: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 11 Mar 2024 10:01:41: #4 Write output xls file... ./HC_peaks.xls 
+INFO  @ Mon, 11 Mar 2024 10:01:41: #4 Write peak in narrowPeak format file... ./HC_peaks.narrowPeak 
+INFO  @ Mon, 11 Mar 2024 10:01:41: #4 Write summits bed file... ./HC_summits.bed 
+INFO  @ Mon, 11 Mar 2024 10:01:42: Done! 

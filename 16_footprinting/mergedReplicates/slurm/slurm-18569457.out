@@ -1,0 +1,143 @@
+Nerol
+INFO  @ Mon, 11 Mar 2024 10:02:24: 
+# Command line: callpeak -f BAMPE -t Nerol.bam -g mm -n ./Nerol -B --keep-dup all
+# ARGUMENTS LIST:
+# name = ./Nerol
+# format = BAMPE
+# ChIP-seq file = ['Nerol.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 11 Mar 2024 10:02:24: #1 read fragment files... 
+INFO  @ Mon, 11 Mar 2024 10:02:24: #1 read treatment fragments... 
+INFO  @ Mon, 11 Mar 2024 10:02:27:  1000000 
+INFO  @ Mon, 11 Mar 2024 10:02:31:  2000000 
+INFO  @ Mon, 11 Mar 2024 10:02:34:  3000000 
+INFO  @ Mon, 11 Mar 2024 10:02:37:  4000000 
+INFO  @ Mon, 11 Mar 2024 10:02:40:  5000000 
+INFO  @ Mon, 11 Mar 2024 10:02:43:  6000000 
+INFO  @ Mon, 11 Mar 2024 10:02:46:  7000000 
+INFO  @ Mon, 11 Mar 2024 10:02:50:  8000000 
+INFO  @ Mon, 11 Mar 2024 10:02:53:  9000000 
+INFO  @ Mon, 11 Mar 2024 10:02:56:  10000000 
+INFO  @ Mon, 11 Mar 2024 10:02:59:  11000000 
+INFO  @ Mon, 11 Mar 2024 10:03:02:  12000000 
+INFO  @ Mon, 11 Mar 2024 10:03:05:  13000000 
+INFO  @ Mon, 11 Mar 2024 10:03:09:  14000000 
+INFO  @ Mon, 11 Mar 2024 10:03:12:  15000000 
+INFO  @ Mon, 11 Mar 2024 10:03:15:  16000000 
+INFO  @ Mon, 11 Mar 2024 10:03:18:  17000000 
+INFO  @ Mon, 11 Mar 2024 10:03:21:  18000000 
+INFO  @ Mon, 11 Mar 2024 10:03:24:  19000000 
+INFO  @ Mon, 11 Mar 2024 10:03:28:  20000000 
+INFO  @ Mon, 11 Mar 2024 10:03:31:  21000000 
+INFO  @ Mon, 11 Mar 2024 10:03:34:  22000000 
+INFO  @ Mon, 11 Mar 2024 10:03:37:  23000000 
+INFO  @ Mon, 11 Mar 2024 10:03:40:  24000000 
+INFO  @ Mon, 11 Mar 2024 10:03:44:  25000000 
+INFO  @ Mon, 11 Mar 2024 10:03:47:  26000000 
+INFO  @ Mon, 11 Mar 2024 10:03:50:  27000000 
+INFO  @ Mon, 11 Mar 2024 10:03:53:  28000000 
+INFO  @ Mon, 11 Mar 2024 10:03:56:  29000000 
+INFO  @ Mon, 11 Mar 2024 10:03:59:  30000000 
+INFO  @ Mon, 11 Mar 2024 10:04:03:  31000000 
+INFO  @ Mon, 11 Mar 2024 10:04:06:  32000000 
+INFO  @ Mon, 11 Mar 2024 10:04:09:  33000000 
+INFO  @ Mon, 11 Mar 2024 10:04:12:  34000000 
+INFO  @ Mon, 11 Mar 2024 10:04:15:  35000000 
+INFO  @ Mon, 11 Mar 2024 10:04:18:  36000000 
+INFO  @ Mon, 11 Mar 2024 10:04:22:  37000000 
+INFO  @ Mon, 11 Mar 2024 10:04:25:  38000000 
+INFO  @ Mon, 11 Mar 2024 10:04:28:  39000000 
+INFO  @ Mon, 11 Mar 2024 10:04:31:  40000000 
+INFO  @ Mon, 11 Mar 2024 10:04:34:  41000000 
+INFO  @ Mon, 11 Mar 2024 10:04:38:  42000000 
+INFO  @ Mon, 11 Mar 2024 10:04:41:  43000000 
+INFO  @ Mon, 11 Mar 2024 10:04:44:  44000000 
+INFO  @ Mon, 11 Mar 2024 10:04:47:  45000000 
+INFO  @ Mon, 11 Mar 2024 10:04:50:  46000000 
+INFO  @ Mon, 11 Mar 2024 10:04:54:  47000000 
+INFO  @ Mon, 11 Mar 2024 10:04:57:  48000000 
+INFO  @ Mon, 11 Mar 2024 10:05:00:  49000000 
+INFO  @ Mon, 11 Mar 2024 10:05:03:  50000000 
+INFO  @ Mon, 11 Mar 2024 10:05:06:  51000000 
+INFO  @ Mon, 11 Mar 2024 10:05:09:  52000000 
+INFO  @ Mon, 11 Mar 2024 10:05:13:  53000000 
+INFO  @ Mon, 11 Mar 2024 10:05:16:  54000000 
+INFO  @ Mon, 11 Mar 2024 10:05:19:  55000000 
+INFO  @ Mon, 11 Mar 2024 10:05:22:  56000000 
+INFO  @ Mon, 11 Mar 2024 10:05:25:  57000000 
+INFO  @ Mon, 11 Mar 2024 10:05:28:  58000000 
+INFO  @ Mon, 11 Mar 2024 10:05:32:  59000000 
+INFO  @ Mon, 11 Mar 2024 10:05:35:  60000000 
+INFO  @ Mon, 11 Mar 2024 10:05:38:  61000000 
+INFO  @ Mon, 11 Mar 2024 10:05:41:  62000000 
+INFO  @ Mon, 11 Mar 2024 10:05:44:  63000000 
+INFO  @ Mon, 11 Mar 2024 10:05:47:  64000000 
+INFO  @ Mon, 11 Mar 2024 10:05:51:  65000000 
+INFO  @ Mon, 11 Mar 2024 10:05:54:  66000000 
+INFO  @ Mon, 11 Mar 2024 10:05:57:  67000000 
+INFO  @ Mon, 11 Mar 2024 10:06:00:  68000000 
+INFO  @ Mon, 11 Mar 2024 10:06:03:  69000000 
+INFO  @ Mon, 11 Mar 2024 10:06:06:  70000000 
+INFO  @ Mon, 11 Mar 2024 10:06:10:  71000000 
+INFO  @ Mon, 11 Mar 2024 10:06:13:  72000000 
+INFO  @ Mon, 11 Mar 2024 10:06:16:  73000000 
+INFO  @ Mon, 11 Mar 2024 10:06:19:  74000000 
+INFO  @ Mon, 11 Mar 2024 10:06:22:  75000000 
+INFO  @ Mon, 11 Mar 2024 10:06:26:  76000000 
+INFO  @ Mon, 11 Mar 2024 10:06:29:  77000000 
+INFO  @ Mon, 11 Mar 2024 10:06:32:  78000000 
+INFO  @ Mon, 11 Mar 2024 10:06:35:  79000000 
+INFO  @ Mon, 11 Mar 2024 10:06:38:  80000000 
+INFO  @ Mon, 11 Mar 2024 10:06:41:  81000000 
+INFO  @ Mon, 11 Mar 2024 10:06:45:  82000000 
+INFO  @ Mon, 11 Mar 2024 10:06:48:  83000000 
+INFO  @ Mon, 11 Mar 2024 10:06:51:  84000000 
+INFO  @ Mon, 11 Mar 2024 10:06:54:  85000000 
+INFO  @ Mon, 11 Mar 2024 10:06:57:  86000000 
+INFO  @ Mon, 11 Mar 2024 10:07:00:  87000000 
+INFO  @ Mon, 11 Mar 2024 10:07:04:  88000000 
+INFO  @ Mon, 11 Mar 2024 10:07:07:  89000000 
+INFO  @ Mon, 11 Mar 2024 10:07:10:  90000000 
+INFO  @ Mon, 11 Mar 2024 10:07:13:  91000000 
+INFO  @ Mon, 11 Mar 2024 10:07:16:  92000000 
+INFO  @ Mon, 11 Mar 2024 10:07:19:  93000000 
+INFO  @ Mon, 11 Mar 2024 10:07:23:  94000000 
+INFO  @ Mon, 11 Mar 2024 10:07:26:  95000000 
+INFO  @ Mon, 11 Mar 2024 10:07:29:  96000000 
+INFO  @ Mon, 11 Mar 2024 10:07:32:  97000000 
+INFO  @ Mon, 11 Mar 2024 10:07:35:  98000000 
+INFO  @ Mon, 11 Mar 2024 10:07:38:  99000000 
+INFO  @ Mon, 11 Mar 2024 10:07:42:  100000000 
+INFO  @ Mon, 11 Mar 2024 10:07:45:  101000000 
+INFO  @ Mon, 11 Mar 2024 10:07:48:  102000000 
+INFO  @ Mon, 11 Mar 2024 10:07:51:  103000000 
+INFO  @ Mon, 11 Mar 2024 10:07:54:  104000000 
+INFO  @ Mon, 11 Mar 2024 10:07:55: 104118457 fragments have been read. 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #1 mean fragment size is determined as 148.8 bp from treatment 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #1 fragment size = 148.8 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #1  total fragments in treatment: 104118457 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #1 finished! 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #2 Build Peak Model... 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #2 Skipped... 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #3 Call peaks... 
+INFO  @ Mon, 11 Mar 2024 10:09:11: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 11 Mar 2024 10:13:57: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 11 Mar 2024 10:13:57: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ./Nerol_treat_pileup.bdg 
+INFO  @ Mon, 11 Mar 2024 10:13:57: #3   Write bedGraph files for control lambda (after scaling if necessary)... ./Nerol_control_lambda.bdg 
+INFO  @ Mon, 11 Mar 2024 10:13:57: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 11 Mar 2024 10:13:57: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 11 Mar 2024 10:18:15: #4 Write output xls file... ./Nerol_peaks.xls 
+INFO  @ Mon, 11 Mar 2024 10:18:16: #4 Write peak in narrowPeak format file... ./Nerol_peaks.narrowPeak 
+INFO  @ Mon, 11 Mar 2024 10:18:16: #4 Write summits bed file... ./Nerol_summits.bed 
+INFO  @ Mon, 11 Mar 2024 10:18:16: Done! 

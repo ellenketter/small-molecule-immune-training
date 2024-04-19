@@ -1,0 +1,4 @@
+usage: rgt-hint [-h] [--version]
+                {footprinting,differential,plotting,training,estimation,evaluation,evidence,tracks}
+                ...
+rgt-hint: error: unrecognized arguments: PBS1_mpbs.bed ../../7_removeChrM/merged/5F1.bam, ../../7_removeChrM/merged/PBS1.bam PBS1

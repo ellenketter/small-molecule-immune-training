@@ -1,0 +1,261 @@
+Fen
+INFO  @ Mon, 11 Mar 2024 09:30:20: 
+# Command line: callpeak -f BAMPE -t Fen.bam -g mm -n ./Fen -B --keep-dup all
+# ARGUMENTS LIST:
+# name = ./Fen
+# format = BAMPE
+# ChIP-seq file = ['Fen.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 11 Mar 2024 09:30:20: #1 read fragment files... 
+INFO  @ Mon, 11 Mar 2024 09:30:20: #1 read treatment fragments... 
+INFO  @ Mon, 11 Mar 2024 09:30:23:  1000000 
+INFO  @ Mon, 11 Mar 2024 09:30:26:  2000000 
+INFO  @ Mon, 11 Mar 2024 09:30:29:  3000000 
+INFO  @ Mon, 11 Mar 2024 09:30:32:  4000000 
+INFO  @ Mon, 11 Mar 2024 09:30:35:  5000000 
+INFO  @ Mon, 11 Mar 2024 09:30:38:  6000000 
+INFO  @ Mon, 11 Mar 2024 09:30:41:  7000000 
+INFO  @ Mon, 11 Mar 2024 09:30:44:  8000000 
+INFO  @ Mon, 11 Mar 2024 09:30:47:  9000000 
+INFO  @ Mon, 11 Mar 2024 09:30:50:  10000000 
+INFO  @ Mon, 11 Mar 2024 09:30:53:  11000000 
+INFO  @ Mon, 11 Mar 2024 09:30:56:  12000000 
+INFO  @ Mon, 11 Mar 2024 09:30:59:  13000000 
+INFO  @ Mon, 11 Mar 2024 09:31:02:  14000000 
+INFO  @ Mon, 11 Mar 2024 09:31:05:  15000000 
+INFO  @ Mon, 11 Mar 2024 09:31:08:  16000000 
+INFO  @ Mon, 11 Mar 2024 09:31:11:  17000000 
+INFO  @ Mon, 11 Mar 2024 09:31:14:  18000000 
+INFO  @ Mon, 11 Mar 2024 09:31:17:  19000000 
+INFO  @ Mon, 11 Mar 2024 09:31:20:  20000000 
+INFO  @ Mon, 11 Mar 2024 09:31:23:  21000000 
+INFO  @ Mon, 11 Mar 2024 09:31:26:  22000000 
+INFO  @ Mon, 11 Mar 2024 09:31:29:  23000000 
+INFO  @ Mon, 11 Mar 2024 09:31:33:  24000000 
+INFO  @ Mon, 11 Mar 2024 09:31:36:  25000000 
+INFO  @ Mon, 11 Mar 2024 09:31:39:  26000000 
+INFO  @ Mon, 11 Mar 2024 09:31:42:  27000000 
+INFO  @ Mon, 11 Mar 2024 09:31:45:  28000000 
+INFO  @ Mon, 11 Mar 2024 09:31:48:  29000000 
+INFO  @ Mon, 11 Mar 2024 09:31:51:  30000000 
+INFO  @ Mon, 11 Mar 2024 09:31:54:  31000000 
+INFO  @ Mon, 11 Mar 2024 09:31:57:  32000000 
+INFO  @ Mon, 11 Mar 2024 09:32:00:  33000000 
+INFO  @ Mon, 11 Mar 2024 09:32:03:  34000000 
+INFO  @ Mon, 11 Mar 2024 09:32:06:  35000000 
+INFO  @ Mon, 11 Mar 2024 09:32:09:  36000000 
+INFO  @ Mon, 11 Mar 2024 09:32:12:  37000000 
+INFO  @ Mon, 11 Mar 2024 09:32:15:  38000000 
+INFO  @ Mon, 11 Mar 2024 09:32:18:  39000000 
+INFO  @ Mon, 11 Mar 2024 09:32:21:  40000000 
+INFO  @ Mon, 11 Mar 2024 09:32:24:  41000000 
+INFO  @ Mon, 11 Mar 2024 09:32:27:  42000000 
+INFO  @ Mon, 11 Mar 2024 09:32:30:  43000000 
+INFO  @ Mon, 11 Mar 2024 09:32:33:  44000000 
+INFO  @ Mon, 11 Mar 2024 09:32:36:  45000000 
+INFO  @ Mon, 11 Mar 2024 09:32:39:  46000000 
+INFO  @ Mon, 11 Mar 2024 09:32:42:  47000000 
+INFO  @ Mon, 11 Mar 2024 09:32:45:  48000000 
+INFO  @ Mon, 11 Mar 2024 09:32:48:  49000000 
+INFO  @ Mon, 11 Mar 2024 09:32:51:  50000000 
+INFO  @ Mon, 11 Mar 2024 09:32:54:  51000000 
+INFO  @ Mon, 11 Mar 2024 09:32:57:  52000000 
+INFO  @ Mon, 11 Mar 2024 09:33:00:  53000000 
+INFO  @ Mon, 11 Mar 2024 09:33:03:  54000000 
+INFO  @ Mon, 11 Mar 2024 09:33:06:  55000000 
+INFO  @ Mon, 11 Mar 2024 09:33:09:  56000000 
+INFO  @ Mon, 11 Mar 2024 09:33:13:  57000000 
+INFO  @ Mon, 11 Mar 2024 09:33:16:  58000000 
+INFO  @ Mon, 11 Mar 2024 09:33:19:  59000000 
+INFO  @ Mon, 11 Mar 2024 09:33:22:  60000000 
+INFO  @ Mon, 11 Mar 2024 09:33:25:  61000000 
+INFO  @ Mon, 11 Mar 2024 09:33:28:  62000000 
+INFO  @ Mon, 11 Mar 2024 09:33:31:  63000000 
+INFO  @ Mon, 11 Mar 2024 09:33:34:  64000000 
+INFO  @ Mon, 11 Mar 2024 09:33:37:  65000000 
+INFO  @ Mon, 11 Mar 2024 09:33:40:  66000000 
+INFO  @ Mon, 11 Mar 2024 09:33:43:  67000000 
+INFO  @ Mon, 11 Mar 2024 09:33:46:  68000000 
+INFO  @ Mon, 11 Mar 2024 09:33:49:  69000000 
+INFO  @ Mon, 11 Mar 2024 09:33:52:  70000000 
+INFO  @ Mon, 11 Mar 2024 09:33:55:  71000000 
+INFO  @ Mon, 11 Mar 2024 09:33:58:  72000000 
+INFO  @ Mon, 11 Mar 2024 09:34:01:  73000000 
+INFO  @ Mon, 11 Mar 2024 09:34:04:  74000000 
+INFO  @ Mon, 11 Mar 2024 09:34:07:  75000000 
+INFO  @ Mon, 11 Mar 2024 09:34:10:  76000000 
+INFO  @ Mon, 11 Mar 2024 09:34:13:  77000000 
+INFO  @ Mon, 11 Mar 2024 09:34:16:  78000000 
+INFO  @ Mon, 11 Mar 2024 09:34:19:  79000000 
+INFO  @ Mon, 11 Mar 2024 09:34:22:  80000000 
+INFO  @ Mon, 11 Mar 2024 09:34:26:  81000000 
+INFO  @ Mon, 11 Mar 2024 09:34:29:  82000000 
+INFO  @ Mon, 11 Mar 2024 09:34:32:  83000000 
+INFO  @ Mon, 11 Mar 2024 09:34:35:  84000000 
+INFO  @ Mon, 11 Mar 2024 09:34:38:  85000000 
+INFO  @ Mon, 11 Mar 2024 09:34:41:  86000000 
+INFO  @ Mon, 11 Mar 2024 09:34:44:  87000000 
+INFO  @ Mon, 11 Mar 2024 09:34:47:  88000000 
+INFO  @ Mon, 11 Mar 2024 09:34:50:  89000000 
+INFO  @ Mon, 11 Mar 2024 09:34:53:  90000000 
+INFO  @ Mon, 11 Mar 2024 09:34:56:  91000000 
+INFO  @ Mon, 11 Mar 2024 09:34:59:  92000000 
+INFO  @ Mon, 11 Mar 2024 09:35:02:  93000000 
+INFO  @ Mon, 11 Mar 2024 09:35:05:  94000000 
+INFO  @ Mon, 11 Mar 2024 09:35:08:  95000000 
+INFO  @ Mon, 11 Mar 2024 09:35:12:  96000000 
+INFO  @ Mon, 11 Mar 2024 09:35:15:  97000000 
+INFO  @ Mon, 11 Mar 2024 09:35:18:  98000000 
+INFO  @ Mon, 11 Mar 2024 09:35:21:  99000000 
+INFO  @ Mon, 11 Mar 2024 09:35:24:  100000000 
+INFO  @ Mon, 11 Mar 2024 09:35:27:  101000000 
+INFO  @ Mon, 11 Mar 2024 09:35:30:  102000000 
+INFO  @ Mon, 11 Mar 2024 09:35:33:  103000000 
+INFO  @ Mon, 11 Mar 2024 09:35:36:  104000000 
+INFO  @ Mon, 11 Mar 2024 09:35:39:  105000000 
+INFO  @ Mon, 11 Mar 2024 09:35:42:  106000000 
+INFO  @ Mon, 11 Mar 2024 09:35:45:  107000000 
+INFO  @ Mon, 11 Mar 2024 09:35:48:  108000000 
+INFO  @ Mon, 11 Mar 2024 09:35:51:  109000000 
+INFO  @ Mon, 11 Mar 2024 09:35:54:  110000000 
+INFO  @ Mon, 11 Mar 2024 09:35:57:  111000000 
+INFO  @ Mon, 11 Mar 2024 09:36:00:  112000000 
+INFO  @ Mon, 11 Mar 2024 09:36:03:  113000000 
+INFO  @ Mon, 11 Mar 2024 09:36:06:  114000000 
+INFO  @ Mon, 11 Mar 2024 09:36:09:  115000000 
+INFO  @ Mon, 11 Mar 2024 09:36:12:  116000000 
+INFO  @ Mon, 11 Mar 2024 09:36:15:  117000000 
+INFO  @ Mon, 11 Mar 2024 09:36:18:  118000000 
+INFO  @ Mon, 11 Mar 2024 09:36:21:  119000000 
+INFO  @ Mon, 11 Mar 2024 09:36:24:  120000000 
+INFO  @ Mon, 11 Mar 2024 09:36:27:  121000000 
+INFO  @ Mon, 11 Mar 2024 09:36:30:  122000000 
+INFO  @ Mon, 11 Mar 2024 09:36:33:  123000000 
+INFO  @ Mon, 11 Mar 2024 09:36:37:  124000000 
+INFO  @ Mon, 11 Mar 2024 09:36:40:  125000000 
+INFO  @ Mon, 11 Mar 2024 09:36:43:  126000000 
+INFO  @ Mon, 11 Mar 2024 09:36:46:  127000000 
+INFO  @ Mon, 11 Mar 2024 09:36:49:  128000000 
+INFO  @ Mon, 11 Mar 2024 09:36:52:  129000000 
+INFO  @ Mon, 11 Mar 2024 09:36:55:  130000000 
+INFO  @ Mon, 11 Mar 2024 09:36:58:  131000000 
+INFO  @ Mon, 11 Mar 2024 09:37:01:  132000000 
+INFO  @ Mon, 11 Mar 2024 09:37:04:  133000000 
+INFO  @ Mon, 11 Mar 2024 09:37:07:  134000000 
+INFO  @ Mon, 11 Mar 2024 09:37:10:  135000000 
+INFO  @ Mon, 11 Mar 2024 09:37:13:  136000000 
+INFO  @ Mon, 11 Mar 2024 09:37:16:  137000000 
+INFO  @ Mon, 11 Mar 2024 09:37:19:  138000000 
+INFO  @ Mon, 11 Mar 2024 09:37:22:  139000000 
+INFO  @ Mon, 11 Mar 2024 09:37:25:  140000000 
+INFO  @ Mon, 11 Mar 2024 09:37:28:  141000000 
+INFO  @ Mon, 11 Mar 2024 09:37:31:  142000000 
+INFO  @ Mon, 11 Mar 2024 09:37:34:  143000000 
+INFO  @ Mon, 11 Mar 2024 09:37:37:  144000000 
+INFO  @ Mon, 11 Mar 2024 09:37:40:  145000000 
+INFO  @ Mon, 11 Mar 2024 09:37:43:  146000000 
+INFO  @ Mon, 11 Mar 2024 09:37:46:  147000000 
+INFO  @ Mon, 11 Mar 2024 09:37:49:  148000000 
+INFO  @ Mon, 11 Mar 2024 09:37:53:  149000000 
+INFO  @ Mon, 11 Mar 2024 09:37:56:  150000000 
+INFO  @ Mon, 11 Mar 2024 09:37:59:  151000000 
+INFO  @ Mon, 11 Mar 2024 09:38:02:  152000000 
+INFO  @ Mon, 11 Mar 2024 09:38:05:  153000000 
+INFO  @ Mon, 11 Mar 2024 09:38:08:  154000000 
+INFO  @ Mon, 11 Mar 2024 09:38:11:  155000000 
+INFO  @ Mon, 11 Mar 2024 09:38:14:  156000000 
+INFO  @ Mon, 11 Mar 2024 09:38:17:  157000000 
+INFO  @ Mon, 11 Mar 2024 09:38:20:  158000000 
+INFO  @ Mon, 11 Mar 2024 09:38:23:  159000000 
+INFO  @ Mon, 11 Mar 2024 09:38:26:  160000000 
+INFO  @ Mon, 11 Mar 2024 09:38:29:  161000000 
+INFO  @ Mon, 11 Mar 2024 09:38:32:  162000000 
+INFO  @ Mon, 11 Mar 2024 09:38:35:  163000000 
+INFO  @ Mon, 11 Mar 2024 09:38:38:  164000000 
+INFO  @ Mon, 11 Mar 2024 09:38:41:  165000000 
+INFO  @ Mon, 11 Mar 2024 09:38:44:  166000000 
+INFO  @ Mon, 11 Mar 2024 09:38:47:  167000000 
+INFO  @ Mon, 11 Mar 2024 09:38:50:  168000000 
+INFO  @ Mon, 11 Mar 2024 09:38:53:  169000000 
+INFO  @ Mon, 11 Mar 2024 09:38:56:  170000000 
+INFO  @ Mon, 11 Mar 2024 09:38:59:  171000000 
+INFO  @ Mon, 11 Mar 2024 09:39:03:  172000000 
+INFO  @ Mon, 11 Mar 2024 09:39:06:  173000000 
+INFO  @ Mon, 11 Mar 2024 09:39:09:  174000000 
+INFO  @ Mon, 11 Mar 2024 09:39:12:  175000000 
+INFO  @ Mon, 11 Mar 2024 09:39:15:  176000000 
+INFO  @ Mon, 11 Mar 2024 09:39:18:  177000000 
+INFO  @ Mon, 11 Mar 2024 09:39:21:  178000000 
+INFO  @ Mon, 11 Mar 2024 09:39:24:  179000000 
+INFO  @ Mon, 11 Mar 2024 09:39:27:  180000000 
+INFO  @ Mon, 11 Mar 2024 09:39:30:  181000000 
+INFO  @ Mon, 11 Mar 2024 09:39:33:  182000000 
+INFO  @ Mon, 11 Mar 2024 09:39:36:  183000000 
+INFO  @ Mon, 11 Mar 2024 09:39:39:  184000000 
+INFO  @ Mon, 11 Mar 2024 09:39:42:  185000000 
+INFO  @ Mon, 11 Mar 2024 09:39:45:  186000000 
+INFO  @ Mon, 11 Mar 2024 09:39:48:  187000000 
+INFO  @ Mon, 11 Mar 2024 09:39:51:  188000000 
+INFO  @ Mon, 11 Mar 2024 09:39:54:  189000000 
+INFO  @ Mon, 11 Mar 2024 09:39:57:  190000000 
+INFO  @ Mon, 11 Mar 2024 09:40:00:  191000000 
+INFO  @ Mon, 11 Mar 2024 09:40:03:  192000000 
+INFO  @ Mon, 11 Mar 2024 09:40:06:  193000000 
+INFO  @ Mon, 11 Mar 2024 09:40:09:  194000000 
+INFO  @ Mon, 11 Mar 2024 09:40:13:  195000000 
+INFO  @ Mon, 11 Mar 2024 09:40:16:  196000000 
+INFO  @ Mon, 11 Mar 2024 09:40:19:  197000000 
+INFO  @ Mon, 11 Mar 2024 09:40:22:  198000000 
+INFO  @ Mon, 11 Mar 2024 09:40:25:  199000000 
+INFO  @ Mon, 11 Mar 2024 09:40:28:  200000000 
+INFO  @ Mon, 11 Mar 2024 09:40:31:  201000000 
+INFO  @ Mon, 11 Mar 2024 09:40:34:  202000000 
+INFO  @ Mon, 11 Mar 2024 09:40:37:  203000000 
+INFO  @ Mon, 11 Mar 2024 09:40:40:  204000000 
+INFO  @ Mon, 11 Mar 2024 09:40:43:  205000000 
+INFO  @ Mon, 11 Mar 2024 09:40:46:  206000000 
+INFO  @ Mon, 11 Mar 2024 09:40:49:  207000000 
+INFO  @ Mon, 11 Mar 2024 09:40:52:  208000000 
+INFO  @ Mon, 11 Mar 2024 09:40:55:  209000000 
+INFO  @ Mon, 11 Mar 2024 09:40:58:  210000000 
+INFO  @ Mon, 11 Mar 2024 09:41:01:  211000000 
+INFO  @ Mon, 11 Mar 2024 09:41:04:  212000000 
+INFO  @ Mon, 11 Mar 2024 09:41:07:  213000000 
+INFO  @ Mon, 11 Mar 2024 09:41:10:  214000000 
+INFO  @ Mon, 11 Mar 2024 09:41:13:  215000000 
+INFO  @ Mon, 11 Mar 2024 09:41:16:  216000000 
+INFO  @ Mon, 11 Mar 2024 09:41:20:  217000000 
+INFO  @ Mon, 11 Mar 2024 09:41:23:  218000000 
+INFO  @ Mon, 11 Mar 2024 09:41:26:  219000000 
+INFO  @ Mon, 11 Mar 2024 09:41:29:  220000000 
+INFO  @ Mon, 11 Mar 2024 09:41:32:  221000000 
+INFO  @ Mon, 11 Mar 2024 09:41:35:  222000000 
+INFO  @ Mon, 11 Mar 2024 09:41:36: 222368246 fragments have been read. 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #1 mean fragment size is determined as 147.9 bp from treatment 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #1 fragment size = 147.9 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #1  total fragments in treatment: 222368246 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #1 finished! 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #2 Build Peak Model... 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #2 Skipped... 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #3 Call peaks... 
+INFO  @ Mon, 11 Mar 2024 09:44:26: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 11 Mar 2024 09:53:56: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 11 Mar 2024 09:53:56: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ./Fen_treat_pileup.bdg 
+INFO  @ Mon, 11 Mar 2024 09:53:56: #3   Write bedGraph files for control lambda (after scaling if necessary)... ./Fen_control_lambda.bdg 
+INFO  @ Mon, 11 Mar 2024 09:53:56: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 11 Mar 2024 09:53:56: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 11 Mar 2024 10:02:10: #4 Write output xls file... ./Fen_peaks.xls 
+INFO  @ Mon, 11 Mar 2024 10:02:10: #4 Write peak in narrowPeak format file... ./Fen_peaks.narrowPeak 
+INFO  @ Mon, 11 Mar 2024 10:02:10: #4 Write summits bed file... ./Fen_summits.bed 
+INFO  @ Mon, 11 Mar 2024 10:02:10: Done! 

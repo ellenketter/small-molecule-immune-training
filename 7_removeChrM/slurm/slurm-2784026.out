@@ -1,0 +1,6 @@
+AEK-RK-1s-PBS1_S1AEK-RK-1s-PBS2_S2
+[E::hts_open_format] Failed to open file "AEK-RK-1s-PBS1_S1AEK-RK-1s-PBS2_S2.bam" : No such file or directory
+samtools view: failed to open "AEK-RK-1s-PBS1_S1AEK-RK-1s-PBS2_S2.bam" for reading: No such file or directory
+Alignments analyzed:            0
+   Removed from SAM:            0
+[main_samview] fail to read the header from "-".

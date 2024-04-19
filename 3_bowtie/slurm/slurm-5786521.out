@@ -1,0 +1,17 @@
+PBS1
+133944555 reads; of these:
+  133944555 (100.00%) were paired; of these:
+    52039864 (38.85%) aligned concordantly 0 times
+    52558942 (39.24%) aligned concordantly exactly 1 time
+    29345749 (21.91%) aligned concordantly >1 times
+    ----
+    52039864 pairs aligned concordantly 0 times; of these:
+      4591072 (8.82%) aligned discordantly 1 time
+    ----
+    47448792 pairs aligned 0 times concordantly or discordantly; of these:
+      94897584 mates make up the pairs; of these:
+        85175648 (89.76%) aligned 0 times
+        6107613 (6.44%) aligned exactly 1 time
+        3614323 (3.81%) aligned >1 times
+68.20% overall alignment rate
+[bam_sort_core] merging from 63 files and 21 in-memory blocks...

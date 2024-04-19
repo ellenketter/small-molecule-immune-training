@@ -1,0 +1,17 @@
+HQ2
+445187166 reads; of these:
+  445187166 (100.00%) were paired; of these:
+    157027743 (35.27%) aligned concordantly 0 times
+    185835352 (41.74%) aligned concordantly exactly 1 time
+    102324071 (22.98%) aligned concordantly >1 times
+    ----
+    157027743 pairs aligned concordantly 0 times; of these:
+      16869325 (10.74%) aligned discordantly 1 time
+    ----
+    140158418 pairs aligned 0 times concordantly or discordantly; of these:
+      280316836 mates make up the pairs; of these:
+        250587582 (89.39%) aligned 0 times
+        18115246 (6.46%) aligned exactly 1 time
+        11614008 (4.14%) aligned >1 times
+71.86% overall alignment rate
+[bam_sort_core] merging from 273 files and 21 in-memory blocks...

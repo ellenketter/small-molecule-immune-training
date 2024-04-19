@@ -1,0 +1,17 @@
+Fluni1
+254894834 reads; of these:
+  254894834 (100.00%) were paired; of these:
+    88424190 (34.69%) aligned concordantly 0 times
+    104967287 (41.18%) aligned concordantly exactly 1 time
+    61503357 (24.13%) aligned concordantly >1 times
+    ----
+    88424190 pairs aligned concordantly 0 times; of these:
+      10856188 (12.28%) aligned discordantly 1 time
+    ----
+    77568002 pairs aligned 0 times concordantly or discordantly; of these:
+      155136004 mates make up the pairs; of these:
+        135659392 (87.45%) aligned 0 times
+        10965648 (7.07%) aligned exactly 1 time
+        8510964 (5.49%) aligned >1 times
+73.39% overall alignment rate
+[bam_sort_core] merging from 147 files and 21 in-memory blocks...

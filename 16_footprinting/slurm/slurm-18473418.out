@@ -1,0 +1,8 @@
+ 48 cpus are detected and 48 of them will be used...
+
+generating signal for each motif and condition...
+
+generating signal for condition 5F1 
+
+/var/spool/slurm/d/job18473418/slurm_script: line 18: 3112066 Killed                  rgt-hint differential --organism=mm10 --bc --nc 48 --mpbs-files=./5F1_mpbs.bed,./5F2_mpbs.bed,./5F3_mpbs.bed,./BG1_mpbs.bed,./BG3_mpbs.bed,./Fen1_mpbs.bed,./Fen2_mpbs.bed,./Fen3_mpbs.bed,./Fluni1_mpbs.bed,./Fluni2_mpbs.bed,./HC1_mpbs.bed,./HC2_mpbs.bed --reads-files=../../7_removeChrM/merged/5F1.bam,../../7_removeChrM/merged/5F2.bam,../../7_removeChrM/merged/5F3.bam,../../7_removeChrM/merged/BG1.bam,../../7_removeChrM/merged/BG3.bam,../../7_removeChrM/merged/Fen1.bam,../../7_removeChrM/merged/Fen2.bam,../../7_removeChrM/merged/Fen3.bam,../../7_removeChrM/merged/Fluni1.bam,../../7_removeChrM/merged/Fluni2.bam,../../7_removeChrM/merged/HC1.bam,../../7_removeChrM/merged/HC2.bam --conditions=5F1,5F2,5F3,BG1,BG3,Fen1,Fen2,Fen3,Fluni1,Fluni2,HC1,HC2 --output-location=../diffFootprinting
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=18473418.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
