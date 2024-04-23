@@ -7,11 +7,34 @@ Raw sequencing data is deposited in Geo.
 
 
 # 1 - Initial Installations
-All ATAC-seq analysis was performed on the high performance research computing cluster Midway3 at the University of Chicago. To preprocess the raw sequencing, we began with command line installations found in 1-installations.sh. 
+All ATAC-seq analysis was performed on the high performance research computing cluster Midway3 at the University of Chicago. To preprocess the raw sequencing, we began with command line installations found in `0-installations`. 
 
 For subsequent analysis, we primarily applied the R programming language using version 4.1.0. Occasional implementation of python scripts or pip based installations used python-anaconda-2022.05-el8-x86_64. 
 
 # 2 - Preprocessing
+`1_mergeFastQ`
+Merge FastQ files from the two sequencing runs
+
+`2_NGmerge`
+Merge paired-end reads and remove sequencing adapters using NGmerge
+
+`3_alignment`
+Align to mouse genome mm10 with bowtie2
+
+`4_markdup`
+Remove PCR duplicates with Samtools markdup
+
+`5_atacSeqQC`
+Perform basic ATACseq quality control, eg. determine percent mitochondrial DNA and transcription start site enrichment with R package `ATACseqQC`
+
+`6_removeChrM`
+Remove reads aligned to mitochondrial sequences with Samtools
+
+`7_peakCalling`
+Call peaks from background with macs2
+
+`8_consensusPeaks`
+Remove blacklisted regions and call consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <code> bedtools intersect -wa -a </code>
 
 
 # 3 - Differential Accessibility Modeling
