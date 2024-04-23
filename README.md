@@ -34,7 +34,7 @@ Remove reads aligned to mitochondrial sequences with <i>Samtools</i>
 Call peaks from background with <i>macs2</i>
 
 `8_consensusPeaks`
-Remove blacklisted regions and call consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <i>bedtools intersect -wa -a</i>
+Remove blacklisted regions and define consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <i>bedtools intersect -wa -a</i>
 
 
 # 3 - Differential Accessibility Modeling
@@ -46,15 +46,16 @@ Differential accessibility between each stimulation condition and the untrained 
 ## mashr
 `10_mashrDA`
 
-
 # 4 - Gene Overenrichment Analysis
-
+`11_mashrGeneORA`
 
 # 5 - Differential Regulation of Transcription Factors
 
 ## Motif Enrichment
+`12_TFmotifEnrichment`
 
 ## Footprinting
+`13_footprinting`
 
 
 # Scripts used to generate each figure panel
