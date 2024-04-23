@@ -57,16 +57,22 @@ Differential accessibility between each stimulation condition and the untrained 
 # 4 - Gene Overenrichment Analysis
 `11_mashrGeneORA`
 
+Using the <i>ora</i> function in the <i>fgsea</i> R package, we compared two lists of genes: one associated with peaks that were differentially accessible by mashr and one list of all genes associated with any consensus peaks identified.
+
 # 5 - Differential Regulation of Transcription Factors
 
 ## Motif Enrichment
 `12_TFmotifEnrichment`
 
+
+
 ## Footprinting
 `13_footprinting`
 
+Using HINT-ATAC from Regulatory Genomics Toolbox, determine transcription factor activity and differential regulation between trained and untrained conditions.
 
-# 6- Scripts used to generate each figure panel
+
+# 6- Scripts used to generate figure panels
 
 ## Figure Four
 
