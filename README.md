@@ -91,6 +91,8 @@ Dot plot of footprinting analysis for differentially regulated transcription fac
 `13_footprinting/13-9_dotPlot.R`
 
 ## Supplementary Table One
+Adjusted p value and mean betas from mashr analysis for all consensus peaks per treatment
+
 
 ## Supplementary Table Two
 
@@ -102,14 +104,23 @@ Fold changes, adjusted p values, and JASPAR motif logos associated with all sign
 
 ## Supplementary Figure Four
 
-### A - Volcano plots of significant differentially accessible peaks determined by mashr (pAdj > 0.1)
+### A - 
+Volcano plots of significant differentially accessible peaks determined by mashr (pAdj > 0.1)
+
 `10_mashrDA/10-2_mashrVolcanoPlots.R`
 
-### B - PCA from limma?
+### B - 
+Principal component analysis
 
-### C - mashr overlaps
+`9_limma/`
+
+### C - 
+mashr overlaps
+
+`10_mashrDA/10-1_mashrUpset.R`
 
 ### D - summary of DR transcription factors
+`13_footprinting/13-5_footprintingResults.R`
 
 ### E - custom lineplots
 `13_footprinting/13-6_bespokeLineplots.R`
