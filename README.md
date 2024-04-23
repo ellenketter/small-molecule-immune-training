@@ -39,12 +39,13 @@ Remove blacklisted regions and call consensus peaks with beta glucan #3 as refer
 
 # 3 - Differential Accessibility Modeling
 
+
 ## limma
 
 ## mashr
 
 
-# 4 - Gene Set Enrichment Analysis
+# 4 - Gene Overenrichment Analysis
 
 
 # 5 - Differential Regulation of Transcription Factors
