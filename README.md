@@ -70,15 +70,13 @@ Differential accessibility between each stimulation condition and the untrained 
 
 ## Figure Four
 
-### B - 
+### B - `10_mashrDA/10-2_mashrVolcanoPlots.R`
 Barplot summary of significant differentially accessible peaks determined by mashr (pAdj < 0.1)
 
-`10_mashrDA/10-2_mashrVolcanoPlots.R`
 
-### C - 
+### C - `10_mashrDA/10-0_mashr_dataDriven_correlations.R`
 Heatmap of shared differentially accessible peaks by mashr (pAdj <0.1)
 
-`10_mashrDA/10-0_mashr_dataDriven_correlations.R`
 
 ### D - 
 Dot plot of overrepresentation analysis for genes near differentially accessible peaks in reactome pathways (pAdj < 0.1)
