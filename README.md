@@ -25,7 +25,7 @@ Align to mouse genome mm10 with <i>bowtie2</i>
 Remove PCR duplicates with <i>Samtools markdup</i>
 
 `5_atacSeqQC`
-Perform basic ATACseq quality control, eg. determine percent mitochondrial DNA and transcription start site enrichment with R package <i>ATACseqQC</i>
+Perform basic ATACseq quality control, eg. percent mitochondrial DNA and transcription start site enrichment with R package <i>ATACseqQC</i>
 
 `6_removeChrM`
 Remove reads aligned to mitochondrial sequences with <i>Samtools</i>
