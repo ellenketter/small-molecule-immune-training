@@ -16,22 +16,22 @@ For subsequent analysis, we primarily applied the R programming language using v
 Merge FastQ files from the two sequencing runs
 
 `2_NGmerge`
-Merge paired-end reads and remove sequencing adapters using NGmerge
+Merge paired-end reads and remove sequencing adapters using <i>NGmerge</i>
 
 `3_alignment`
-Align to mouse genome mm10 with bowtie2
+Align to mouse genome mm10 with <i>bowtie2</i>
 
 `4_markdup`
-Remove PCR duplicates with Samtools markdup
+Remove PCR duplicates with <i>Samtools markdup</i>
 
 `5_atacSeqQC`
 Perform basic ATACseq quality control, eg. determine percent mitochondrial DNA and transcription start site enrichment with R package <i>ATACseqQC</i>
 
 `6_removeChrM`
-Remove reads aligned to mitochondrial sequences with Samtools
+Remove reads aligned to mitochondrial sequences with <i>Samtools</i>
 
 `7_peakCalling`
-Call peaks from background with macs2
+Call peaks from background with <i>macs2</i>
 
 `8_consensusPeaks`
 Remove blacklisted regions and call consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <i>bedtools intersect -wa -a</i>
