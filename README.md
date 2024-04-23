@@ -34,7 +34,7 @@ Remove reads aligned to mitochondrial sequences with Samtools
 Call peaks from background with macs2
 
 `8_consensusPeaks`
-Remove blacklisted regions and call consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <code> bedtools intersect -wa -a </code>
+Remove blacklisted regions and call consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <p> bedtools intersect -wa -a </p>
 
 
 # 3 - Differential Accessibility Modeling
