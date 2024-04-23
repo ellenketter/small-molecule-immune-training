@@ -1,5 +1,5 @@
 # small-molecule-immune-training
-Code implemented to analyze bulk ATAC-sequencing of BMDMs treated with novel small molecules from Knight et al. PNAS. (2024)
+Code implemented to analyze bulk ATAC-sequencing of BMDMs treated with novel small molecule inducers of trained immunity from Knight et al. PNAS. (2024)
 
 Visualizations of this analysis can be found in Figure 4, Supplementary Table 3, and Supplementary Figure 4.
 
