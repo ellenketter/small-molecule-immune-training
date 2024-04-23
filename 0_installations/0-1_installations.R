@@ -11,7 +11,8 @@ install.packages(c("tidyverse", "stringr", "ggplot2", "hrbrthemes", "viridis",
                    "pheatmap", "wesanderson", "statmod", "goseq", "RColorBrewer",
                    "ggfortify", "devtools", "FactoMineR", "factoextra", 
                    "cluster", "ggrepel", "data.table", "VennDiagram", "UpSetR",
-                   "readr"))
+                   "readr", "remotes", "mashr"))
+
 
 
 # install BiocManager
