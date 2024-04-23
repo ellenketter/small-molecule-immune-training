@@ -91,7 +91,7 @@ Dot plot of footprinting analysis for differentially regulated transcription fac
 `13_footprinting/13-9_dotPlot.R`
 
 ## Supplementary Table One
-Adjusted p value and mean betas from mashr analysis for all consensus peaks per treatment
+Adjusted p values and mean betas from mashr analysis for all consensus peaks per treatment
 
 
 ## Supplementary Table Two
@@ -110,19 +110,24 @@ Volcano plots of significant differentially accessible peaks determined by mashr
 `10_mashrDA/10-2_mashrVolcanoPlots.R`
 
 ### B - 
-Principal component analysis
+Principal component analysis of mashr-computed betas
 
-`9_limma/`
+`10_mashrDA/10-0_mashr_dataDriven_correlations.R`
 
 ### C - 
-mashr overlaps
+Pathway over-enrichment of overlaps among differentially acessible peaks by mashr between treatment condtions 
 
-`10_mashrDA/10-1_mashrUpset.R`
+`11_mashrGeneORA/11-3_oraOverlaps/11-3-3_overlaps_ora_visualization.R`
 
-### D - summary of DR transcription factors
+### D - 
+Summary of differentially regulated transcription factors (pAdj < 0.1)
 `13_footprinting/13-5_footprintingResults.R`
 
-### E - custom lineplots
+### E - 
+Lineplots from HINT-ATAC footprinting output with custom themed color for treatment conditions
 `13_footprinting/13-6_bespokeLineplots.R`
 
 ### F - 
+Dot plot of transcription factor motif enrichment analysis by HOMER
+`12_TFmotifEnrichment/12-3_dotPlot.R`
+
