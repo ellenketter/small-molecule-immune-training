@@ -38,11 +38,13 @@ Remove blacklisted regions and call consensus peaks with beta glucan #3 as refer
 
 
 # 3 - Differential Accessibility Modeling
-
+Differential accessibility between each stimulation condition and the untrained control (PBS) was first modeled with limma and then secondly with mashr to increase sensitivity, as described in the methods of Knight et al (2024)
 
 ## limma
+`9_limmaDA`
 
 ## mashr
+`10_mashrDA`
 
 
 # 4 - Gene Overenrichment Analysis
