@@ -66,7 +66,7 @@ Differential accessibility between each stimulation condition and the untrained 
 `13_footprinting`
 
 
-# Scripts used to generate each figure panel
+# 6- Scripts used to generate each figure panel
 
 ## Figure Four
 
@@ -90,13 +90,19 @@ Dot plot of footprinting analysis for differentially regulated transcription fac
 
 `13_footprinting/13-9_dotPlot.R`
 
-## Supplementary Table One
+## Supplementary Table One -
 Adjusted p values and mean betas from mashr analysis for all consensus peaks per treatment
 
+`10_mashrDA/10-0_mashr_dataDriven_correlations.R`
 
-## Supplementary Table Two
 
-## Supplementary Table Three
+## Supplementary Table Two -
+Adjusted p values for two-list over-representation analysis of significantly upregulated genes present in REACTOME database pathways versus a background of all genes proximal to peaks measured in this ATACseq experiment, per treatment condition.
+
+`11_mashrGeneORA/11-1_fgsea_ora.R`
+
+
+## Supplementary Table Three -
 Fold changes, adjusted p values, and JASPAR motif logos associated with all significant differentially regulated transcription factors identified by footprinting
 
 `13_footprinting/13-10_significantMotifs.R`
@@ -121,13 +127,16 @@ Pathway over-enrichment of overlaps among differentially acessible peaks by mash
 
 ### D - 
 Summary of differentially regulated transcription factors (pAdj < 0.1)
+
 `13_footprinting/13-5_footprintingResults.R`
 
 ### E - 
 Lineplots from HINT-ATAC footprinting output with custom themed color for treatment conditions
+
 `13_footprinting/13-6_bespokeLineplots.R`
 
 ### F - 
 Dot plot of transcription factor motif enrichment analysis by HOMER
+
 `12_TFmotifEnrichment/12-3_dotPlot.R`
 
