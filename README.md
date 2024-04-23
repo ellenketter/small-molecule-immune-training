@@ -57,7 +57,7 @@ Differential accessibility between each stimulation condition and the untrained 
 # 4 - Gene Overenrichment Analysis
 `11_mashrGeneORA`
 
-Using the <i>ora</i> function in the <i>fgsea</i> R package, we compared two lists of genes: one associated with peaks that were differentially accessible by mashr and one list of all genes associated with any consensus peaks identified.
+Using the <i>ora</i> function in the <i>fgsea</i> R package, compare two lists of genes: one associated with peaks that were differentially accessible by mashr and one list of all genes associated with any consensus peaks identified.
 
 # 5 - Differential Regulation of Transcription Factors
 
