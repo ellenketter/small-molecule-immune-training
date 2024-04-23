@@ -25,7 +25,7 @@ Align to mouse genome mm10 with bowtie2
 Remove PCR duplicates with Samtools markdup
 
 `5_atacSeqQC`
-Perform basic ATACseq quality control, eg. determine percent mitochondrial DNA and transcription start site enrichment with R package `ATACseqQC`
+Perform basic ATACseq quality control, eg. determine percent mitochondrial DNA and transcription start site enrichment with R package <i>ATACseqQC</i>
 
 `6_removeChrM`
 Remove reads aligned to mitochondrial sequences with Samtools
@@ -34,7 +34,7 @@ Remove reads aligned to mitochondrial sequences with Samtools
 Call peaks from background with macs2
 
 `8_consensusPeaks`
-Remove blacklisted regions and call consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <p> bedtools intersect -wa -a </p>
+Remove blacklisted regions and call consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <i>bedtools intersect -wa -a</i>
 
 
 # 3 - Differential Accessibility Modeling
