@@ -1,5 +1,0 @@
-usage: rgt-hint [-h] [--version]
-                {footprinting,differential,plotting,training,estimation,evaluation,evidence,tracks}
-                ...
-rgt-hint: error: unrecognized arguments: 5F2_mpbs.bed, 5F3_mpbs.bed, BG1_mpbs.bed, BG3_mpbs.bed, Fen1_mpbs.bed, Fen2_mpbs.bed, Fen3_mpbs.bed, Fluni1_mpbs.bed, Fluni2_mpbs.bed, HC1_mpbs.bed, HC2_mpbs.bed, HQ1_mpbs.bed, HQ2_mpbs.bed, Myr1_mpbs.bed, Myr2_mpbs.bed, Myr3_mpbs.bed, Nerol1_mpbs.bed, Nerol2_mpbs.bed, Nerol3_mpbs.bed, PBS1_mpbs.bed, PBS2_mpbs.bed, PBS3_mpbs.bed, PBSa1_mpbs.bed, PBSa2_mpbs.bed, PBSa3_mpbs.bed ../../7_removeChrM/merged/5F1.bam, ../../7_removeChrM/merged/5F2.bam,  
-/var/spool/slurm/d/job18465100/slurm_script: line 24: ../../7_removeChrM/merged/5F3.bam,: No such file or directory

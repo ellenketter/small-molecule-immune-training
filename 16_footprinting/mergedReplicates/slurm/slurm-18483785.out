@@ -1,2 +1,0 @@
-/var/spool/slurm/d/job18483785/slurm_script: line 13: syntax error near unexpected token `samtools'
-/var/spool/slurm/d/job18483785/slurm_script: line 13: `samtools merge -@ 20 -o ../../16_footprinting/mergedBams/${molecule}.bam ${molecule}1.bam ${molecule}2.bam ${molecule}3.bam '

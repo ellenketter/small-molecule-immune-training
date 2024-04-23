@@ -1,7 +1,0 @@
- 48 cpus are detected and 48 of them will be used...
-
-generating signal for each motif and condition...
-
-generating signal for condition 5F1 
-
-slurmstepd: error: *** JOB 18474025 ON midway3-0323 CANCELLED AT 2024-03-07T22:26:52 ***

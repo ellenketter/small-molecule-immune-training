@@ -1,8 +1,0 @@
-Loading [1mpython/anaconda-2020.11[22m
-  [91mERROR[0m: python/anaconda-2020.11 cannot be loaded due to a conflict.
-    HINT: Might try "module unload python" first.
-5F
-Traceback (most recent call last):
-  File "/home/ellenketter/.local/bin/macs2", line 23, in <module>
-    from MACS2.Constants import *
-ModuleNotFoundError: No module named 'MACS2'
