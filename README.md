@@ -42,7 +42,7 @@ Call peaks from background with <i>macs2</i>
 
 `8_consensusPeaks`
 
-Remove blacklisted regions and define consensus peaks with beta glucan #3 as reference file (greatest number of peaks) using <i>bedtools intersect -wa -a</i>
+Remove blacklisted regions and define consensus peaks with reference file as replicate with greatest number of peaks using <i>bedtools intersect -wa -a</i>
 
 
 # 3 - Differential Accessibility Modeling
