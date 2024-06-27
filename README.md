@@ -3,7 +3,7 @@ Code implemented to analyze bulk ATAC-sequencing of BMDMs treated with novel sma
 
 Visualizations of this analysis can be found in Figure 4, Supplementary Table 3, and Supplementary Figure 4.
 
-Raw sequencing data is deposited in [GEO]{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270608}
+Raw sequencing data is deposited in [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270608)
 
 
 # 1 - Initial Installations
