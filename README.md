@@ -2,8 +2,8 @@
 Code implemented to analyze bulk ATAC-sequencing of BMDMs treated with novel small molecule inducers of trained immunity from Knight et al. <i>PNAS</i>. (2024)
 
 Visualizations of this analysis can be found in Figure 4, Supplementary Table 3, and Supplementary Figure 4.
-
-Raw sequencing data is deposited in [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270608)
+d=
+Raw sequencing data and intermediate processed data is available at [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270608). 
 
 
 # 1 - Initial Installations
